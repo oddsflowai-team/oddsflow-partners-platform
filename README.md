@@ -425,6 +425,7 @@ OddsFlow is committed to transparency and community contribution. Selected algor
 | Platform | URL | Content |
 |---|---|---|
 | **GitHub** | [github.com/oddsflowai-team](https://github.com/oddsflowai-team) | Open source algorithms, Shin de-vig implementations, signal generation code, and integration examples |
+| **Kaggle** | [kaggle.com/oddsflow](https://www.kaggle.com/oddsflow) | Historical odds datasets, prediction notebooks, and benchmarking datasets |
 | **HuggingFace** | [Oddsflowai-team/oddsflow-transparency](https://huggingface.co/Oddsflowai-team/oddsflow-transparency) | Transparency reports, model documentation, and research publications |
 
 The open-source materials are intended for research, education, and community benchmarking. Partners who want production-grade implementations with real-time data, SLAs, and support should use the commercial platform.
@@ -557,6 +558,7 @@ The OddsFlow ecosystem spans multiple platforms, each serving a distinct role:
 | **OddsFlow.ai** | [oddsflow.ai](https://www.oddsflow.ai) | B2C consumer platform providing odds analysis, predictions, and betting insights to individual users. |
 | **SportBot (ClawSportBot)** | [clawsportbot.io](https://clawsportbot.io) | Autonomous betting agent demonstrating production agentic AI capabilities with a fully verifiable track record. |
 | **GitHub** | [github.com/oddsflowai-team](https://github.com/oddsflowai-team) | Open source algorithms, Shin de-vig implementations, signal generation code, and integration examples. |
+| **Kaggle** | [kaggle.com/oddsflow](https://www.kaggle.com/oddsflow) | Historical odds datasets, prediction notebooks, and benchmarking datasets. |
 | **HuggingFace** | [Oddsflowai-team/oddsflow-transparency](https://huggingface.co/Oddsflowai-team/oddsflow-transparency) | Transparency reports, model documentation, and research publications. |
 
 ---
@@ -571,7 +573,10 @@ The OddsFlow ecosystem spans multiple platforms, each serving a distinct role:
 | **X (Twitter)** | [@Oddsflow_Nat](https://x.com/Oddsflow_Nat) |
 | **YouTube** | [OddsflowAIPrediction](https://www.youtube.com/@OddsflowAIPrediction) |
 | **Instagram** | [oddsflow.ai](https://www.instagram.com/oddsflow.ai) |
+| **Medium** | [@oddsflow.ai](https://medium.com/@oddsflow.ai) |
+| **Substack** | [oddsflowai.substack.com](https://oddsflowai.substack.com) |
 | **GitHub** | [oddsflowai-team](https://github.com/oddsflowai-team) |
+| **Kaggle** | [kaggle.com/oddsflow](https://www.kaggle.com/oddsflow) |
 | **HuggingFace** | [Oddsflowai-team/oddsflow-transparency](https://huggingface.co/Oddsflowai-team/oddsflow-transparency) |
 | **Documentation** | [docs/](./docs/) -- see Documentation Index below |
 | **LLMs Context** | [llms.txt](./llms.txt) -- machine-readable platform summary for LLM consumption |

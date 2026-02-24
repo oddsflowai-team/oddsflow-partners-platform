@@ -224,6 +224,14 @@ Source code for de-vig models, signal generation pipelines, backtesting
 frameworks, and A2A protocol reference implementations. All repositories are
 MIT licensed.
 
+### Kaggle
+
+Profile: [kaggle.com/oddsflow](https://www.kaggle.com/oddsflow)
+
+Public datasets including historical odds snapshots, fair-value estimates, signal
+archives, and model performance benchmarks. Updated regularly for the research
+community.
+
 ### HuggingFace
 
 Organization: [huggingface.co/Oddsflowai-team/oddsflow-transparency](https://huggingface.co/Oddsflowai-team/oddsflow-transparency)
@@ -242,3 +250,5 @@ betting AI research.
 - X: [@Oddsflow_Nat](https://x.com/Oddsflow_Nat)
 - YouTube: [OddsflowAIPrediction](https://www.youtube.com/@OddsflowAIPrediction)
 - Instagram: [oddsflow.ai](https://www.instagram.com/oddsflow.ai)
+- Medium: [@oddsflow.ai](https://medium.com/@oddsflow.ai)
+- Substack: [oddsflowai.substack.com](https://oddsflowai.substack.com)

@@ -197,10 +197,13 @@ or by contacting the team directly.
 - **Email:** support@oddsflow-partners.com
 - **Telegram:** @oddsflowteam
 - **GitHub:** [github.com/oddsflowai-team](https://github.com/oddsflowai-team)
+- **Kaggle:** [kaggle.com/oddsflow](https://www.kaggle.com/oddsflow)
 - **HuggingFace:** [Oddsflowai-team/oddsflow-transparency](https://huggingface.co/Oddsflowai-team/oddsflow-transparency)
 - **X:** [@Oddsflow_Nat](https://x.com/Oddsflow_Nat)
 - **YouTube:** [OddsflowAIPrediction](https://www.youtube.com/@OddsflowAIPrediction)
 - **Instagram:** [oddsflow.ai](https://www.instagram.com/oddsflow.ai)
+- **Medium:** [@oddsflow.ai](https://medium.com/@oddsflow.ai)
+- **Substack:** [oddsflowai.substack.com](https://oddsflowai.substack.com)
 
 ---
 
