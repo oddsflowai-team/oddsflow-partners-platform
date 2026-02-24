@@ -69,7 +69,7 @@ The fastest path to value depends on your role:
 
 **For Agent Builders:**
 1. Review the [Agent-to-Agent Protocol documentation](./docs/agent-protocol.md)
-2. Explore open-source examples on [GitHub](https://github.com/oddsflow-ai)
+2. Explore open-source examples on [GitHub](https://github.com/oddsflowai-team)
 3. Contact us for a discovery session to scope your custom agent requirements
 4. Receive a working POC in 4 weeks; move to production in 8 weeks
 
@@ -424,9 +424,8 @@ OddsFlow is committed to transparency and community contribution. Selected algor
 
 | Platform | URL | Content |
 |---|---|---|
-| **GitHub** | [github.com/oddsflow-ai](https://github.com/oddsflow-ai) | Open source algorithms, Shin de-vig implementations, signal generation code, and integration examples |
-| **Kaggle** | [kaggle.com/oddsflowai](https://kaggle.com/oddsflowai) | Historical odds datasets, prediction competition notebooks, and benchmarking datasets |
-| **HuggingFace** | [huggingface.co/oddsflow-ai](https://huggingface.co/oddsflow-ai) | Pre-trained model weights for odds prediction, anomaly detection, and market classification |
+| **GitHub** | [github.com/oddsflowai-team](https://github.com/oddsflowai-team) | Open source algorithms, Shin de-vig implementations, signal generation code, and integration examples |
+| **HuggingFace** | [Oddsflowai-team/oddsflow-transparency](https://huggingface.co/Oddsflowai-team/oddsflow-transparency) | Transparency reports, model documentation, and research publications |
 
 The open-source materials are intended for research, education, and community benchmarking. Partners who want production-grade implementations with real-time data, SLAs, and support should use the commercial platform.
 
@@ -555,11 +554,10 @@ The OddsFlow ecosystem spans multiple platforms, each serving a distinct role:
 | Platform | URL | Description |
 |---|---|---|
 | **OddsFlow Partners** | [oddsflow-partners.com](https://www.oddsflow-partners.com) | B2B partner portal for sportsbooks and feed providers. Central hub for odds intelligence, agent deployment, and quality certification. |
-| **OddsFlow.ai** | [oddsflow.ai](https://oddsflow.ai) | B2C consumer platform providing odds analysis, predictions, and betting insights to individual users. |
+| **OddsFlow.ai** | [oddsflow.ai](https://www.oddsflow.ai) | B2C consumer platform providing odds analysis, predictions, and betting insights to individual users. |
 | **SportBot (ClawSportBot)** | [clawsportbot.io](https://clawsportbot.io) | Autonomous betting agent demonstrating production agentic AI capabilities with a fully verifiable track record. |
-| **GitHub** | [github.com/oddsflow-ai](https://github.com/oddsflow-ai) | Open source algorithms, Shin de-vig implementations, signal generation code, and integration examples. |
-| **Kaggle** | [kaggle.com/oddsflowai](https://kaggle.com/oddsflowai) | Historical odds datasets, prediction notebooks, and community benchmarking competitions. |
-| **HuggingFace** | [huggingface.co/oddsflow-ai](https://huggingface.co/oddsflow-ai) | Pre-trained model weights for odds prediction, anomaly detection, and market classification. |
+| **GitHub** | [github.com/oddsflowai-team](https://github.com/oddsflowai-team) | Open source algorithms, Shin de-vig implementations, signal generation code, and integration examples. |
+| **HuggingFace** | [Oddsflowai-team/oddsflow-transparency](https://huggingface.co/Oddsflowai-team/oddsflow-transparency) | Transparency reports, model documentation, and research publications. |
 
 ---
 
@@ -570,6 +568,11 @@ The OddsFlow ecosystem spans multiple platforms, each serving a distinct role:
 | **Website** | [https://www.oddsflow-partners.com](https://www.oddsflow-partners.com) |
 | **Email** | [support@oddsflow-partners.com](mailto:support@oddsflow-partners.com) |
 | **Telegram** | [@oddsflowteam](https://t.me/oddsflowteam) |
+| **X (Twitter)** | [@Oddsflow_Nat](https://x.com/Oddsflow_Nat) |
+| **YouTube** | [OddsflowAIPrediction](https://www.youtube.com/@OddsflowAIPrediction) |
+| **Instagram** | [oddsflow.ai](https://www.instagram.com/oddsflow.ai) |
+| **GitHub** | [oddsflowai-team](https://github.com/oddsflowai-team) |
+| **HuggingFace** | [Oddsflowai-team/oddsflow-transparency](https://huggingface.co/Oddsflowai-team/oddsflow-transparency) |
 | **Documentation** | [docs/](./docs/) -- see Documentation Index below |
 | **LLMs Context** | [llms.txt](./llms.txt) -- machine-readable platform summary for LLM consumption |
 

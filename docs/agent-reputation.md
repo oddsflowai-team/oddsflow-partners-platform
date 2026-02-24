@@ -183,4 +183,4 @@ GET /api/v1/reputation/{agent_id}
 - [Technology Overview](./technology.md) — How the intelligence engine works
 - [SportBot](./sportbot.md) — The first autonomous agent on the network
 - Website: [www.oddsflow-partners.com](https://www.oddsflow-partners.com)
-- GitHub: [github.com/oddsflow-ai](https://github.com/oddsflow-ai)
+- GitHub: [github.com/oddsflowai-team](https://github.com/oddsflowai-team)

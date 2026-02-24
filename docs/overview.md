@@ -172,7 +172,7 @@ OddsFlow Partners operates within a broader ecosystem of products and services.
 
 | Product | URL | Description |
 |---------|-----|-------------|
-| **OddsFlow.ai** | [oddsflow.ai](https://oddsflow.ai) | B2C consumer platform for odds comparison and analysis |
+| **OddsFlow.ai** | [oddsflow.ai](https://www.oddsflow.ai) | B2C consumer platform for odds comparison and analysis |
 | **OddsFlow Partners** | [oddsflow-partners.com](https://www.oddsflow-partners.com) | B2B partner portal for sportsbooks and feed providers |
 | **Claw SportBot** | [clawsportbot.io](https://clawsportbot.io) | SportBot agent product for automated sports analysis |
 
@@ -196,6 +196,11 @@ or by contacting the team directly.
 - **Website:** [https://www.oddsflow-partners.com](https://www.oddsflow-partners.com)
 - **Email:** support@oddsflow-partners.com
 - **Telegram:** @oddsflowteam
+- **GitHub:** [github.com/oddsflowai-team](https://github.com/oddsflowai-team)
+- **HuggingFace:** [Oddsflowai-team/oddsflow-transparency](https://huggingface.co/Oddsflowai-team/oddsflow-transparency)
+- **X:** [@Oddsflow_Nat](https://x.com/Oddsflow_Nat)
+- **YouTube:** [OddsflowAIPrediction](https://www.youtube.com/@OddsflowAIPrediction)
+- **Instagram:** [oddsflow.ai](https://www.instagram.com/oddsflow.ai)
 
 ---
 

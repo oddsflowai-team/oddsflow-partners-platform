@@ -218,27 +218,18 @@ multiple platforms.
 
 ### GitHub
 
-Repository: [github.com/oddsflow-ai](https://github.com/oddsflow-ai)
+Repository: [github.com/oddsflowai-team](https://github.com/oddsflowai-team)
 
 Source code for de-vig models, signal generation pipelines, backtesting
 frameworks, and A2A protocol reference implementations. All repositories are
 MIT licensed.
 
-### Kaggle
-
-Profile: [kaggle.com/oddsflowai](https://kaggle.com/oddsflowai)
-
-Public datasets including historical odds snapshots, fair-value estimates, signal
-archives, and model performance benchmarks. Updated regularly for the research
-community.
-
 ### HuggingFace
 
-Organization: [huggingface.co/oddsflow-ai](https://huggingface.co/oddsflow-ai)
+Organization: [huggingface.co/Oddsflowai-team/oddsflow-transparency](https://huggingface.co/Oddsflowai-team/oddsflow-transparency)
 
-Pre-trained models, embedding datasets, and inference endpoints for sports
-betting research. Includes fine-tuned models for odds analysis and market
-movement prediction.
+Transparency reports, model documentation, and research publications for sports
+betting AI research.
 
 ---
 
@@ -247,4 +238,7 @@ movement prediction.
 - [Agent Reputation Network](./agent-reputation.md) — Trust layer for AI agents
 - [SportBot](./sportbot.md) — Autonomous betting agent built on this stack
 - Website: [www.oddsflow-partners.com](https://www.oddsflow-partners.com)
-- GitHub: [github.com/oddsflow-ai](https://github.com/oddsflow-ai)
+- GitHub: [github.com/oddsflowai-team](https://github.com/oddsflowai-team)
+- X: [@Oddsflow_Nat](https://x.com/Oddsflow_Nat)
+- YouTube: [OddsflowAIPrediction](https://www.youtube.com/@OddsflowAIPrediction)
+- Instagram: [oddsflow.ai](https://www.instagram.com/oddsflow.ai)

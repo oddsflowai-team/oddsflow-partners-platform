@@ -151,4 +151,4 @@ integrate SportBot into their platforms:
 - [Technology Overview](./technology.md) — The intelligence engine behind it all
 - SportBot Website: [clawsportbot.io](https://clawsportbot.io)
 - OddsFlow Partners: [www.oddsflow-partners.com](https://www.oddsflow-partners.com)
-- GitHub: [github.com/oddsflow-ai](https://github.com/oddsflow-ai)
+- GitHub: [github.com/oddsflowai-team](https://github.com/oddsflowai-team)
