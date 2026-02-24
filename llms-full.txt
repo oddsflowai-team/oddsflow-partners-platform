@@ -1,0 +1,2967 @@
+# OddsFlow Partners — Complete Documentation
+
+> This file contains the full documentation for OddsFlow Partners, an AI-powered odds intelligence and agentic AI infrastructure platform for sportsbooks and odds feed providers.
+
+Website: https://www.oddsflow-partners.com
+Contact: support@oddsflow-partners.com
+Telegram: @oddsflowteam
+
+---
+
+# OddsFlow Partners — Platform Overview
+
+OddsFlow Partners is an AI-powered odds intelligence and agentic AI infrastructure
+platform built for sportsbooks and odds feed providers. The platform combines
+real-time odds surveillance, anomaly detection, pricing quality scoring, and
+autonomous AI agent infrastructure into a unified B2B offering.
+
+This document provides a comprehensive overview of the platform's capabilities,
+architecture, and integration points.
+
+---
+
+## Company Summary
+
+| Field | Detail |
+|-------|--------|
+| **Platform** | OddsFlow Partners |
+| **Website** | [https://www.oddsflow-partners.com](https://www.oddsflow-partners.com) |
+| **Type** | B2B odds intelligence and agentic AI infrastructure |
+| **Contact** | support@oddsflow-partners.com |
+| **Telegram** | @oddsflowteam |
+
+---
+
+## Key Performance Metrics
+
+- **56.8% verified win rate** across 10,000+ tracked matches
+- **228+ PDF-verified records** documenting prediction accuracy
+- **50+ global bookmakers** monitored in real time
+- **Sub-200ms API latency** for odds data and signal delivery
+
+---
+
+## Three Pillars
+
+The OddsFlow Partners platform is organized around three core pillars.
+
+### 1. Odds Intelligence
+
+Real-time monitoring of odds from 50+ global bookmakers, powered by a fair-value
+engine built on the Shin de-vig methodology. The odds intelligence layer detects
+anomalies, scores pricing quality, and generates actionable signals for risk and
+trading teams.
+
+Core capabilities:
+
+- Continuous odds ingestion from 50+ bookmakers across multiple sports and markets
+- Fair-value calculation using Shin de-vig models to remove bookmaker margin
+- Statistical anomaly detection comparing individual book odds against fair value
+- Pricing quality scoring for individual bookmakers and feed providers
+- Three distinct signal types with independently verified win rates
+- Historical pattern analysis across markets and time periods
+
+### 2. Agentic AI Infrastructure
+
+A framework for building, deploying, and orchestrating autonomous AI agents that
+operate within betting platforms. This includes custom agent development, an
+Agent-to-Agent (A2A) communication protocol, and tools for making odds feeds
+agent-ready.
+
+Core capabilities:
+
+- Custom AI agent development tailored to sportsbook and feed provider workflows
+- Agent-to-Agent (A2A) communication protocol for multi-agent coordination
+- Agent deployment infrastructure with monitoring and lifecycle management
+- Feed preparation tooling to make third-party odds feeds consumable by agents
+- Integration with the Odds Intelligence layer for agent decision-making
+
+### 3. Agent Reputation Network
+
+A trust-scoring system for AI agents operating in the betting ecosystem. The
+reputation network tracks agent performance, reliability, and behavior over time,
+providing a shared trust layer for platforms that deploy or interact with
+autonomous agents.
+
+Core capabilities:
+
+- Trust scoring for AI agents based on historical performance and behavior
+- Reputation tracking across deployments and platforms
+- Transparent scoring methodology with auditable metrics
+- Network-level visibility into agent reliability for platform operators
+
+---
+
+## Signal Types
+
+OddsFlow Partners generates three categories of trading signals, each targeting
+a different class of market inefficiency.
+
+### HDP Sniper
+
+- **Focus:** Asian handicap line deviations
+- **Verified win rate:** 58.3%
+- **Method:** Identifies mispricing in Asian handicap markets by comparing
+  individual bookmaker lines against the fair-value model. Triggers when a
+  bookmaker's handicap line deviates beyond a statistically significant threshold.
+
+### Active Trader
+
+- **Focus:** Coordinated market movements
+- **Verified win rate:** 55.1%
+- **Method:** Detects coordinated odds movements across multiple bookmakers that
+  indicate informed money or sharp action. Signals are generated when movement
+  patterns across books exceed expected correlation levels.
+
+### Shield
+
+- **Focus:** Counter-consensus risk identification
+- **Verified win rate:** 61.2%
+- **Method:** Identifies situations where a bookmaker's position diverges from
+  market consensus in a way that suggests elevated risk exposure. Designed for
+  defensive risk management rather than directional trading.
+
+---
+
+## Two-Track Solutions
+
+### For Sportsbooks
+
+OddsFlow Partners helps sportsbooks protect margins and improve pricing through:
+
+- **Stale line detection:** Identify lines that have not updated in response to
+  market movements, reducing exposure to arbitrage and sharp action.
+- **Liability quantification:** Measure potential liability from mispriced lines
+  using fair-value deviation metrics.
+- **Real-time alerts:** Receive alerts when pricing anomalies are detected, with
+  severity scoring and confidence intervals.
+- **AI agent deployment:** Deploy autonomous agents for tasks such as automated
+  line adjustment, risk flagging, and market surveillance.
+
+### For Feed Providers
+
+OddsFlow Partners helps odds feed providers measure, certify, and improve their
+product through:
+
+- **Feed quality measurement:** Quantitative scoring of feed accuracy, latency,
+  and coverage against the fair-value benchmark.
+- **Third-party certification:** Independent feed quality auditing and
+  certification that providers can share with their customers.
+- **Agent-ready feeds:** Tooling and standards to make feeds consumable by
+  autonomous AI agents operating in the betting ecosystem.
+
+---
+
+## Technology
+
+### Fair-Value Engine
+
+The platform's fair-value engine uses the Shin de-vig methodology to strip
+bookmaker margins from raw odds and produce true implied probabilities. This
+provides a neutral benchmark against which individual bookmaker pricing is
+measured.
+
+### Ensemble ML Models
+
+Anomaly detection and signal generation are powered by ensemble machine learning
+models that combine multiple statistical approaches. These models are trained on
+historical odds data and continuously updated as new data arrives.
+
+### Infrastructure
+
+- REST API and WebSocket connections for real-time data delivery
+- Sub-200ms response times for API queries
+- Sub-100ms delivery for WebSocket streams
+- Dashboard access for manual monitoring and analysis
+
+---
+
+## Ecosystem
+
+OddsFlow Partners operates within a broader ecosystem of products and services.
+
+| Product | URL | Description |
+|---------|-----|-------------|
+| **OddsFlow.ai** | [oddsflow.ai](https://oddsflow.ai) | B2C consumer platform for odds comparison and analysis |
+| **OddsFlow Partners** | [oddsflow-partners.com](https://www.oddsflow-partners.com) | B2B partner portal for sportsbooks and feed providers |
+| **Claw SportBot** | [clawsportbot.io](https://clawsportbot.io) | SportBot agent product for automated sports analysis |
+
+---
+
+## Integration
+
+Partners can integrate with OddsFlow through:
+
+- **REST API** — Request-response access to odds data, signals, and scoring
+- **WebSocket** — Streaming real-time odds updates and alert delivery
+- **Dashboard** — Browser-based interface for monitoring, analysis, and configuration
+
+API documentation and integration support are available through the partner portal
+or by contacting the team directly.
+
+---
+
+## Contact
+
+- **Website:** [https://www.oddsflow-partners.com](https://www.oddsflow-partners.com)
+- **Email:** support@oddsflow-partners.com
+- **Telegram:** @oddsflowteam
+
+---
+
+## Summary
+
+OddsFlow Partners provides odds intelligence, agentic AI infrastructure, and an
+agent reputation network for the sports betting industry. The platform monitors
+50+ bookmakers in real time, generates verified trading signals with a 56.8%
+composite win rate across 10,000+ matches, and offers tools for building and
+deploying autonomous AI agents within betting platforms.
+
+---
+
+# Odds Monitoring — Real-Time Surveillance & Anomaly Detection
+
+This document describes the odds monitoring capabilities of the OddsFlow Partners
+platform, including real-time surveillance, fair-value computation, anomaly
+detection, signal generation, and integration options.
+
+---
+
+## What Odds Monitoring Is
+
+Odds monitoring is the continuous collection, normalization, and analysis of
+betting odds across multiple bookmakers. Its purpose is to identify when an
+individual bookmaker's odds deviate from fair value — whether due to stale
+lines, mispricing, or suspicious market movements.
+
+For sportsbooks, odds monitoring protects margins by catching pricing errors
+before they are exploited. For feed providers, it provides an objective measure
+of feed quality and accuracy.
+
+---
+
+## Why It Matters
+
+Bookmaker odds are set independently and updated at different speeds. At any
+given moment, some bookmakers will be mispriced relative to the true market.
+These mispricings create risk:
+
+- **For sportsbooks:** Stale or mispriced lines attract sharp bettors and
+  arbitrageurs, eroding margins.
+- **For feed providers:** Inaccurate or delayed feeds reduce client confidence
+  and create downstream pricing errors.
+- **For the market:** Undetected anomalies can indicate suspicious activity
+  that warrants investigation.
+
+Continuous monitoring surfaces these issues in real time, before they cause
+material financial impact.
+
+---
+
+## How OddsFlow Monitors Odds
+
+OddsFlow Partners ingests odds from 50+ global bookmakers across multiple
+sports and market types. The monitoring pipeline operates as follows:
+
+1. **Ingestion** — Raw odds are collected from bookmaker APIs and partner data
+   connections. Data arrives continuously at sub-second intervals.
+2. **Normalization** — Odds are converted to a common format (decimal odds and
+   implied probabilities) and aligned by event, market type, and selection.
+3. **Fair-value computation** — The Shin de-vig methodology strips bookmaker
+   margins to compute true implied probabilities for each selection.
+4. **Comparison** — Each bookmaker's odds are compared against fair value.
+   Deviations are measured in standard deviations and implied probability gaps.
+5. **Anomaly detection** — Statistical models evaluate whether deviations are
+   within normal range or represent actionable anomalies.
+6. **Signal generation** — Anomalies that meet predefined thresholds are
+   classified by type, severity, and confidence.
+7. **Delivery** — Signals and data are delivered via REST API, WebSocket
+   streams, and the monitoring dashboard.
+
+---
+
+## Fair-Value Engine
+
+### Shin De-Vig Methodology
+
+The platform uses the Shin model to remove bookmaker overround (vig) from raw
+odds. The Shin method accounts for the fact that bookmaker margins are not
+applied uniformly across all outcomes — favorites carry less margin than
+longshots. This produces more accurate implied probabilities than simpler
+methods such as proportional margin removal.
+
+The fair-value engine:
+
+- Aggregates odds from all monitored bookmakers for each event and market
+- Applies the Shin de-vig model to compute margin-free implied probabilities
+- Weights bookmaker inputs based on historical accuracy and sharpness
+- Updates fair values continuously as new odds data arrives
+- Provides a neutral benchmark for measuring individual book pricing
+
+The Shin model was developed specifically to address the favorite-longshot bias
+in bookmaker pricing, making it more suitable for fair-value estimation in
+sports betting markets than proportional de-vig approaches.
+
+---
+
+## Anomaly Detection
+
+The anomaly detection layer sits on top of the fair-value engine. It uses
+statistical models to determine whether a bookmaker's odds deviate from fair
+value by more than expected.
+
+### Stale Lines
+
+A bookmaker's odds have not updated in response to market movements. The
+platform tracks each bookmaker's last price update relative to fair-value
+movement and flags lines that fail to respond within an expected window. Stale
+lines are a primary target for arbitrage bettors and represent direct margin
+erosion.
+
+### Mispricing
+
+A bookmaker's odds differ from fair value beyond normal margin variation.
+Statistical comparison of implied probabilities against the Shin-derived fair
+value flags deviations that exceed configurable thresholds.
+
+### Suspicious Movements
+
+Odds move in patterns inconsistent with normal market behavior — sudden large
+movements at a single bookmaker, movements preceding public information, or
+coordinated shifts across a small subset of books that diverge from the broader
+market. Time-series analysis across all monitored bookmakers flags deviations
+outside normal statistical bounds.
+
+---
+
+## Signal Types
+
+When anomalies are detected, they are classified into one of three signal types.
+
+### HDP Sniper
+
+- **Target:** Asian handicap line deviations
+- **Verified win rate:** 58.3%
+- **Description:** Identifies mispricing in Asian handicap markets by comparing
+  individual bookmaker lines against the Shin-derived fair value. Asian handicap
+  markets are particularly susceptible to stale lines due to the granularity of
+  half-goal and quarter-goal adjustments.
+
+### Active Trader
+
+- **Target:** Coordinated market movements
+- **Verified win rate:** 55.1%
+- **Description:** Detects coordinated odds movements across multiple bookmakers
+  that indicate informed money entering the market. Signals are generated when
+  cross-bookmaker correlation patterns exceed expected levels.
+
+### Shield
+
+- **Target:** Counter-consensus risk positions
+- **Verified win rate:** 61.2%
+- **Description:** Identifies situations where a bookmaker's position diverges
+  materially from market consensus, indicating elevated risk exposure. Designed
+  for defensive risk management — alerting sportsbooks to concentrated liability
+  positions.
+
+---
+
+## Alert System
+
+Each alert includes:
+
+- **Signal type** — HDP Sniper, Active Trader, or Shield
+- **Severity score** — Numeric rating based on deviation magnitude
+- **Confidence interval** — Statistical confidence in the anomaly detection
+- **Affected bookmaker(s)** — Which bookmaker(s) show the anomaly
+- **Event details** — Sport, league, teams, market type, and kickoff time
+- **Fair-value context** — Current fair value, bookmaker odds, and deviation size
+- **Timestamp** — When the anomaly was detected
+
+Severity scoring accounts for deviation magnitude, anomaly duration, number of
+affected bookmakers, historical frequency, and estimated financial exposure.
+
+### Delivery Channels
+
+- **WebSocket** — Real-time push delivery, sub-100ms latency
+- **REST API** — Polling-based access, sub-200ms response time
+- **Dashboard** — Visual interface with filtering, sorting, and drill-down
+
+---
+
+## Historical Analysis
+
+The platform maintains a historical database of odds movements and anomalies.
+
+- **Pattern detection** — Identify recurring anomaly patterns for specific
+  bookmakers, leagues, or market types over time
+- **Bookmaker profiling** — Build accuracy and latency profiles for individual
+  bookmakers based on historical performance
+- **Trend analysis** — Track changes in feed quality or pricing accuracy across
+  weeks and months
+- **Backtesting** — Test detection thresholds and signal parameters against
+  historical data
+
+---
+
+## Integration
+
+### REST API
+
+- Request-response access to current odds, fair values, signals, and history
+- Sub-200ms response time, JSON format, API key authentication
+
+### WebSocket
+
+- Streaming real-time odds updates and alert notifications
+- Sub-100ms delivery latency with automatic reconnection
+- Filtered subscriptions by sport, league, bookmaker, or signal type
+
+### Dashboard
+
+- Browser-based monitoring with real-time odds comparison
+- Alert feed, historical analysis tools, and bookmaker quality scorecards
+
+---
+
+## Use Cases
+
+### For Sportsbooks
+
+- **Line management** — Detect stale lines before exploitation by arbitrage
+  and sharp action
+- **Risk surveillance** — Monitor for suspicious movement patterns
+- **Pricing validation** — Benchmark internal models against the fair-value engine
+- **Automated response** — Connect alerts to line adjustment workflows via API
+
+### For Feed Providers
+
+- **Quality measurement** — Objective scoring of feed accuracy, latency, and
+  coverage
+- **Certification** — Independent third-party feed quality certification
+- **Competitive benchmarking** — Compare feed performance to the broader market
+- **Issue detection** — Early warning when feed quality degrades
+
+---
+
+## Contact
+
+- **Website:** [https://www.oddsflow-partners.com](https://www.oddsflow-partners.com)
+- **Email:** support@oddsflow-partners.com
+- **Telegram:** @oddsflowteam
+
+---
+
+# Sportsbook Solutions — Risk Management & Odds Quality
+
+> OddsFlow Partners provides risk intelligence and odds quality infrastructure for sportsbooks. We help trading desks detect mispriced markets, manage liability exposure, and automate risk workflows using real-time data from 50+ bookmakers.
+
+---
+
+## The Problem
+
+Sportsbooks face persistent operational challenges that directly impact margins:
+
+### Stale Odds Create Arbitrage Windows
+
+When odds lag behind market movements — even by seconds — sophisticated bettors exploit the gap. Arbitrage and value-betting syndicates continuously scan for stale lines across books. A single slow market update can open a window that costs thousands before it closes.
+
+### Liability Exposure from Mispriced Markets
+
+Mispriced odds attract disproportionate action on one side of a market. Without independent benchmarks, traders may not recognize a pricing error until the liability is already concentrated. Correlated mispricings across related markets (e.g., match winner and set handicap in tennis) compound the exposure.
+
+### Manual Risk Management Does Not Scale
+
+Human traders cannot monitor thousands of live markets simultaneously. Manual processes introduce latency in detection and response. As market coverage grows — more sports, more leagues, more bet types — the gap between what needs monitoring and what gets monitored widens.
+
+---
+
+## Core Solutions
+
+### 1. Anomaly Detection
+
+OddsFlow Partners compares your odds against fair-value benchmarks derived from 50+ bookmakers using the Shin de-vig methodology. This produces market-consensus fair odds that account for bookmaker margins and known biases.
+
+**How it works:**
+
+- **Real-time deviation alerts.** When your odds diverge from fair value beyond a configurable threshold, an alert fires. Alerts include the magnitude of deviation, the direction, and which bookmakers are aligned with the consensus.
+- **Severity scoring.** Each anomaly is scored on a multi-factor scale: size of deviation, market liquidity, time to event, and historical pattern. A 2% deviation on an NFL moneyline 30 minutes before kickoff is treated differently than a 2% deviation on a lower-tier league three days out.
+- **Confidence intervals.** Fair-value estimates include confidence bands so traders can distinguish between a clear mispricing and a market where consensus is fragmented.
+- **Historical anomaly pattern analysis.** OddsFlow tracks anomaly patterns over time — by sport, league, market type, and time-of-day — to identify systematic issues in your pricing pipeline. Recurring anomalies on specific market types may indicate a feed issue or model gap rather than a one-off error.
+
+### 2. Risk Intelligence
+
+Anomaly detection tells you when a single market is off. Risk intelligence tells you what is happening across your book.
+
+- **Correlated market movement analysis.** When odds shift on a football match winner market, OddsFlow checks whether your related markets — Asian handicap, totals, first-half lines — have moved accordingly. Uncorrelated movement across related markets signals exposure.
+- **Bettor behavior correlation.** Aggregate betting patterns are correlated with market movements. When sharp-money flow indicators align with odds movement at other books but your lines have not moved, that is a signal.
+- **Odds topology mapping.** OddsFlow maps the structure of your odds across markets to identify clusters of correlated risk. If liability is building on one side of multiple related markets, the system flags the aggregate exposure.
+- **Sharp-money flow indicators.** By tracking which bookmakers move first and how the market follows, OddsFlow identifies sharp-driven movement and distinguishes it from recreational volume.
+- **Customizable risk threshold alerts.** Set thresholds by sport, league, market type, liability amount, or any combination. Alerts route to the right trader or team based on your escalation rules.
+
+### 3. Market Efficiency Scoring
+
+Every market in your book receives a real-time efficiency score that quantifies how closely your odds align with the broader market consensus.
+
+- **Per-market efficiency scores.** Scores are updated continuously as new data arrives. A score of 100 means your odds are at consensus; lower scores indicate divergence.
+- **Trend analysis.** Track efficiency over time to measure the impact of pricing changes, feed upgrades, or new model deployments. Weekly and monthly rollups show whether your book is getting sharper or drifting.
+- **Competitive positioning.** See where your odds sit relative to market consensus — and relative to specific competitor segments. Understand whether you are consistently offering value on certain market types.
+
+---
+
+## Integration Models
+
+OddsFlow Partners offers three integration paths, each designed for a different stage of adoption.
+
+### API Overlay
+
+The fastest path to production. Connect your existing odds feed and receive enriched data back.
+
+- **Sub-100ms response time.** Designed for live trading workflows where latency matters.
+- **REST and WebSocket endpoints.** Use REST for on-demand queries and WebSocket for streaming alerts and score updates.
+- **Live in days, not months.** Minimal integration effort. Send us your odds; we return anomaly scores, efficiency ratings, and risk signals.
+
+### White-Label Platform
+
+For sportsbooks that want a fully branded risk management interface for their trading teams.
+
+- **Full branding.** Your logo, your colors, your domain. Traders see your platform, powered by OddsFlow data.
+- **SSO and RBAC.** Single sign-on integration with your identity provider. Role-based access control lets you define permissions by team, sport, or market tier.
+- **Embedded React components.** Drop individual widgets — anomaly dashboards, efficiency charts, risk heatmaps — into your existing tools using pre-built React components.
+
+### Custom POC
+
+For sportsbooks that want to validate ROI before committing.
+
+- **Your data, your metrics.** We run the analysis on your historical odds and trading data to quantify the opportunity.
+- **Measurable ROI.** The POC produces concrete numbers: how many anomalies were detected, estimated margin impact, and time-to-detection improvements.
+- **Dedicated engineering support.** A named engineering contact works with your team through the evaluation.
+
+---
+
+## Agentic AI for Trading Desks
+
+OddsFlow Partners builds custom AI agents that operate alongside your trading team. These agents run 24/7, processing data continuously and taking action based on rules you define.
+
+### Odds Monitoring Agent
+
+Watches every market in your book against fair-value benchmarks around the clock.
+
+- Detects deviations the moment they appear, not when a human happens to check.
+- Fires alerts with full context: deviation size, confidence level, affected correlated markets.
+- Learns from historical patterns to reduce false positives over time.
+- Operates continuously across all sports and market types without fatigue.
+
+### Risk Assessment Agent
+
+Evaluates aggregate risk exposure and escalates automatically when thresholds are breached.
+
+- Monitors liability accumulation across correlated markets in real time.
+- Applies configurable escalation rules: notify a trader, restrict a market, or trigger an automatic odds adjustment.
+- Produces risk summaries at configurable intervals for management review.
+- Correlates sharp-money indicators with liability concentration to prioritize the highest-risk situations.
+
+### Trading Assistant Agent
+
+Supports traders with research, context, and suggested actions.
+
+- Surfaces relevant historical data when a trader is reviewing a flagged market.
+- Suggests odds adjustments based on current market consensus and your target margin.
+- Tracks the outcome of previous adjustments to improve future recommendations.
+- Reduces the time traders spend gathering information so they can focus on decisions.
+
+### Compliance Agent
+
+Monitors trading activity for regulatory compliance requirements.
+
+- Tracks odds movements and trading patterns for compliance reporting.
+- Flags activity that may require regulatory disclosure.
+- Generates audit trails for all automated and manual trading actions.
+- Produces compliance reports in formats required by relevant jurisdictions.
+
+---
+
+## Technical Details
+
+| Specification         | Detail                                      |
+|-----------------------|---------------------------------------------|
+| Data Sources          | 50+ bookmakers, real-time                   |
+| De-vig Methodology    | Shin model                                  |
+| API Latency           | Sub-100ms (p95)                             |
+| Protocols             | REST, WebSocket                             |
+| Authentication        | API key, OAuth 2.0, SSO (SAML/OIDC)        |
+| Update Frequency      | Continuous (streaming), or polling intervals |
+| Sports Coverage       | Football, basketball, tennis, baseball, hockey, American football, and more |
+| UI Components         | React (embeddable), standalone dashboard    |
+
+---
+
+## Getting Started
+
+To discuss integration options or request a POC:
+
+- **Email:** support@oddsflow-partners.com
+- **Telegram:** Contact us for direct messaging details
+- **Website:** [www.oddsflow-partners.com](https://www.oddsflow-partners.com)
+
+---
+
+*OddsFlow Partners — Risk intelligence infrastructure for sportsbooks.*
+
+---
+
+# Feed Provider Solutions — Quality Auditing & Certification
+
+> OddsFlow Partners provides independent quality auditing and certification for odds feed providers. We help feed companies prove data quality with transparent benchmarks, identify issues before clients do, and differentiate on measurable accuracy and freshness.
+
+---
+
+## The Problem
+
+Odds feed providers face challenges that are difficult to solve internally:
+
+### Quality Complaints Without Independent Benchmarks
+
+When a sportsbook client says your odds are "off," how do you evaluate the claim? Without an independent reference point, quality disputes become subjective. Providers end up in back-and-forth investigations that consume engineering time and strain client relationships. An external benchmark turns subjective complaints into objective, measurable conversations.
+
+### Latency and Freshness Issues Erode Client Margins
+
+Odds data that arrives even slightly late costs your clients money. Stale prices create arbitrage windows that sharp bettors exploit before the sportsbook can react. Clients may not always tell you about latency issues — they simply lose margin and eventually look for an alternative feed. Continuous freshness measurement catches degradation before it becomes a retention problem.
+
+### Coverage Gaps Are Hard to Identify at Scale
+
+When you cover thousands of events across dozens of sports, missing markets are easy to overlook. A dropped league, a missing bet type, or inconsistent coverage of in-play markets may not trigger an internal alert but will be noticed by clients comparing your feed to competitors. Systematic coverage auditing against the broader market reveals gaps that internal monitoring misses.
+
+---
+
+## Core Solutions
+
+### 1. Feed Quality Scoring
+
+Every update in your feed receives an accuracy and freshness score. These scores roll up from individual updates to markets, events, sports, and your entire portfolio.
+
+**How it works:**
+
+- **Per-update accuracy and freshness scores.** Each odds update is compared against fair-value benchmarks at the moment it arrives. Accuracy measures how close the update is to consensus. Freshness measures how quickly it arrived relative to market movers.
+- **Hierarchical rollups.** Scores aggregate from the update level to the market level, then to the event, sport, and portfolio level. This lets you see both the big picture and drill down to specific problem areas.
+- **Trend analysis with configurable alerting.** Track quality scores over time. Set alerts for when a sport or market type drops below a threshold, or when a trend line indicates gradual degradation. Catch issues during development — not after client complaints.
+
+### 2. Fair-Odds Benchmarking
+
+OddsFlow Partners constructs consensus fair odds from 50+ bookmakers using the Shin de-vig methodology. These benchmarks serve as the independent reference point for all quality measurements.
+
+- **Consensus fair odds from 50+ bookmakers.** The Shin model removes bookmaker margins to produce true probability estimates. Aggregating across 50+ sources produces a robust consensus that is resistant to any single bookmaker's bias.
+- **Deviation heatmaps.** Visualize where your feed diverges from fair value. Heatmaps organized by sport, league, market type, and time show patterns at a glance. A cluster of deviations on a specific league's in-play totals, for example, points to a targeted issue.
+- **Latency benchmarking vs. market movers.** OddsFlow measures how quickly your feed reflects market movements initiated by sharp bookmakers. This latency benchmark is expressed in milliseconds and compared against the competitive landscape, so you know where you stand.
+
+### 3. Anomaly Detection
+
+Statistical anomaly detection identifies issues that quality scoring alone may miss — sudden breaks, pipeline failures, and data corruption.
+
+- **Statistical anomaly detection with severity tiers.** Anomalies are classified by severity: informational, warning, and critical. Severity is determined by the magnitude of the deviation, the importance of the market, and the duration of the issue.
+- **Pipeline health monitoring.** Beyond individual odds values, OddsFlow monitors the health of your data pipeline: update frequency, gap detection, and consistency checks. A sudden drop in update volume for a sport can indicate a pipeline issue before it manifests as incorrect odds.
+- **Root cause classification.** Detected anomalies are tagged with probable root causes: feed delay, model error, missing data, stale cache, or upstream provider issue. This accelerates your team's investigation and resolution process.
+
+---
+
+## Third-Party Quality Certification
+
+Independent quality certification gives feed providers a credible way to demonstrate data quality to current and prospective clients.
+
+### Certified Quality Reports
+
+Monthly and quarterly PDF reports that summarize your feed's quality performance against OddsFlow benchmarks.
+
+- Accuracy, freshness, coverage, and consistency scores with historical trends.
+- Comparison against anonymized industry percentiles so clients can see relative performance.
+- Detailed breakdowns by sport, league, and market type.
+- Designed to be shared directly with clients and prospects as a trust-building tool.
+
+### Live Quality Badge
+
+A real-time quality score widget that you can embed on your website or client portal.
+
+- Displays your current quality score, updated continuously.
+- Clients and prospects can see live performance without requesting a report.
+- Badge design is configurable to match your branding.
+- Links to a detailed quality dashboard for users who want to drill deeper.
+
+### Client-Facing Dashboards
+
+Interactive dashboards that your clients can access to view the quality of the feed they receive.
+
+- Clients see accuracy, freshness, and coverage scores for the sports and markets they subscribe to.
+- Historical trend views let clients verify that quality is stable or improving.
+- Reduces inbound support queries about data quality by providing self-service transparency.
+- Access is managed through your existing client portal or provided as a standalone link.
+
+---
+
+## Sample Certification Metrics
+
+The following are example metrics from a certified quality report:
+
+| Metric           | Score   | Description                                                  |
+|------------------|---------|--------------------------------------------------------------|
+| **Accuracy**     | 94.2%   | Percentage of odds updates within acceptable deviation of fair-value consensus |
+| **Freshness**    | A+      | Odds update latency relative to market-moving bookmakers     |
+| **Coverage**     | 98.7%   | Percentage of available markets covered vs. the full market universe |
+| **Anomaly Rate** | 0.3%    | Percentage of updates flagged as statistical anomalies       |
+| **Consistency**  | 97.1%   | Stability of odds updates — absence of erratic jumps or gaps |
+
+These scores are calculated against OddsFlow benchmarks derived from 50+ bookmakers using Shin de-vig methodology. Scoring criteria and methodology are documented and available for client review.
+
+---
+
+## Agent-Ready Feed Infrastructure
+
+OddsFlow Partners builds infrastructure that supports the emerging ecosystem of AI agents consuming and acting on odds data.
+
+### Data Verification Agents
+
+Automated agents that continuously verify feed data against OddsFlow benchmarks.
+
+- Run 24/7, checking every update against fair-value consensus in real time.
+- Flag deviations, missing data, and freshness issues the moment they occur.
+- Produce structured verification reports that can be consumed by downstream systems or other agents.
+- Operate independently of your internal monitoring, providing a true second opinion.
+
+### A2A Endpoints
+
+Agent-to-Agent (A2A) communication endpoints that allow external AI agents to query your feed quality data programmatically.
+
+- Standardized API endpoints designed for machine consumption.
+- External agents — whether operated by your clients or third parties — can verify data quality before acting on it.
+- Supports the trust layer that agent-driven betting and trading systems require.
+
+### Reputation Network Integration
+
+Quality scores feed into reputation networks that agents use to select and trust data sources.
+
+- Your certified quality scores become part of a verifiable reputation that agents can query.
+- Higher reputation scores mean agents are more likely to select your feed over competitors.
+- Reputation is built on continuous, auditable performance — not marketing claims.
+
+### Audit Trail
+
+Complete, immutable audit trails for all quality assessments and certifications.
+
+- Every quality score, anomaly detection, and certification decision is logged with timestamps.
+- Audit trails are available for regulatory review, client disputes, or internal investigation.
+- Supports compliance requirements in regulated betting markets.
+
+---
+
+## Agent Types
+
+### Data Verification Agent
+
+Continuously verifies feed accuracy against independent benchmarks. Operates in real time, producing structured output for human review or downstream agent consumption.
+
+### Quality Monitoring Agent
+
+Monitors feed quality trends over time. Detects gradual degradation, seasonal patterns, and the impact of pipeline changes. Alerts engineering teams when quality metrics trend downward.
+
+### Compliance Agent
+
+Tracks feed quality against contractual SLAs and regulatory requirements. Generates compliance reports and flags potential SLA breaches before they occur.
+
+### A2A Gateway Agent
+
+Manages communication between your systems and external AI agents. Handles authentication, rate limiting, data formatting, and query routing for agent-to-agent interactions.
+
+---
+
+## Technical Details
+
+| Specification         | Detail                                      |
+|-----------------------|---------------------------------------------|
+| Data Sources          | 50+ bookmakers, real-time                   |
+| De-vig Methodology    | Shin model                                  |
+| API Latency           | Sub-100ms (p95)                             |
+| Protocols             | REST, WebSocket, A2A                        |
+| Authentication        | API key, OAuth 2.0                          |
+| Report Formats        | PDF, JSON, interactive dashboard            |
+| Update Frequency      | Continuous (streaming), or polling intervals |
+| Sports Coverage       | Football, basketball, tennis, baseball, hockey, American football, and more |
+| Badge Integration     | Embed script, iframe, or React component    |
+
+---
+
+## Getting Started
+
+To discuss quality auditing, certification, or a pilot program:
+
+- **Email:** support@oddsflow-partners.com
+- **Telegram:** Contact us for direct messaging details
+- **Website:** [www.oddsflow-partners.com](https://www.oddsflow-partners.com)
+
+---
+
+*OddsFlow Partners — Independent quality infrastructure for odds feed providers.*
+
+---
+
+# Agentic AI Infrastructure for Sports Betting
+
+## OddsFlow Partners — Building the Agent Layer for Sports Betting
+
+OddsFlow Partners is building the foundational infrastructure that enables autonomous AI agents to operate across the sports betting ecosystem. Our vision is a future where sportsbooks, feed providers, and end users each deploy intelligent agents that communicate, verify, and transact — machine to machine — with minimal human intervention.
+
+---
+
+## Vision
+
+The sports betting industry generates enormous volumes of real-time data: odds movements, line changes, injury reports, settlement results, and liability exposures. Today, humans monitor dashboards and react to alerts. Tomorrow, purpose-built AI agents will handle continuous monitoring, autonomous data verification, intelligent trading decisions, and cross-platform communication on behalf of their operators.
+
+OddsFlow Partners provides the infrastructure to make this transition possible:
+
+- **Custom AI Agents** tailored to each platform's unique needs
+- **Machine-to-Machine Communication** through an open, standardized protocol
+- **Autonomous Data Verification** where agents cross-reference multiple sources before reporting
+- **Intelligent Trading Infrastructure** that surfaces opportunities and manages risk without human bottlenecks
+
+---
+
+## Three Pillars
+
+### 1. Custom Agent Development
+
+We design and deploy AI agents tailored to your platform. Whether you are a sportsbook, a data feed provider, or a trading desk, we build agents that integrate with your existing systems and operate autonomously within the boundaries you define.
+
+- **Six agent types** available: Odds Monitoring, Data Verification, Risk Assessment, Market Analysis, Trading Assistant, and Compliance
+- **Proof of Concept delivered in 4 weeks** — a working agent connected to your environment, demonstrating core functionality
+- **Production deployment in 8 weeks** — fully tested, monitored, and ready for live operation
+- Agents are built on OddsFlow infrastructure but operate within your environment, under your control
+
+Learn more: [Custom Agent Development](./custom-agents.md)
+
+### 2. Agent-to-Agent (A2A) Protocol
+
+Our open protocol defines how agents communicate across organizational boundaries. A sportsbook's risk agent can query a feed provider's data agent. A user's personal agent can request verified odds from multiple sportsbook agents simultaneously. The protocol ensures structured, verifiable, auditable exchanges.
+
+- **Open protocol** — published specification, reference implementations, community governance
+- **Structured data exchange** with standardized message formats for odds, markets, signals, and settlements
+- **Mutual verification** — agents independently verify each other's claims against fair-value benchmarks
+- **Reputation-based trust** — every interaction is scored, and agents with higher reputation are prioritized in the network
+
+Learn more: [Agent-to-Agent Protocol](./agent-protocol.md)
+
+### 3. Agent Reputation Network
+
+Every agent on the OddsFlow network accumulates a cryptographic track record. Accuracy, latency, uptime, and consistency are continuously measured and scored. This reputation is portable and verifiable — third-party agents can query it before deciding whether to trust a counterpart.
+
+- **Cryptographic track records** — immutable logs of every claim, verification, and interaction
+- **Dynamic scoring from 0 to 100** — updated in real time based on agent performance across accuracy, latency, uptime, and consistency
+- **Open protocol for third-party agents** — any agent, whether built by OddsFlow or independently, can participate in the Reputation Network and earn trust through performance
+- Higher-reputation agents receive priority routing, better data access, and preferential treatment in trading negotiations
+
+---
+
+## Deployment Timeline
+
+OddsFlow follows a structured deployment process to move from initial discovery to a live, continuously learning agent:
+
+| Phase | Timeline | Activities |
+|---|---|---|
+| **Discovery** | Week 1 | Map your data sources, workflows, and integration points. Define agent objectives and success criteria. |
+| **Agent Design** | Week 2 | Select agent types, design communication flows, define verification rules and escalation policies. |
+| **Integration & Testing** | Weeks 3-4 | Connect agents to your platform, run parallel testing against live data, validate accuracy and latency. |
+| **Continuous Learning** | Ongoing | Agents improve over time. Performance is monitored, models are retrained, and new capabilities are added based on observed patterns. |
+
+This timeline applies to a single-agent Proof of Concept. Multi-agent deployments and enterprise integrations follow an extended 8-week timeline with additional testing and compliance review.
+
+---
+
+## Use Cases for Sportsbooks
+
+Sportsbooks operate in a high-frequency, high-stakes environment where seconds matter. OddsFlow agents are designed to operate at machine speed, 24 hours a day, 7 days a week.
+
+- **Deploy 24/7 monitoring agents** that scan every line across every market, flagging anomalies, stale lines, and arbitrage exposures before they are exploited
+- **Enable end-user agents** — allow your customers to deploy personal agents that interact with your platform through the A2A Protocol, creating a differentiated, agent-native user experience
+- **Automate risk assessment** with agents that continuously evaluate liability concentrations, correlated exposures, and sharp-money flow, escalating to human traders only when severity thresholds are breached
+- **Become an agent-native platform** — the first sportsbook to offer full agent compatibility gains a structural advantage as autonomous betting becomes mainstream
+
+---
+
+## Use Cases for Feed Providers
+
+Feed providers are the backbone of the sports betting data ecosystem. OddsFlow agents make feeds smarter, more reliable, and ready for the agentic future.
+
+- **Agent-ready feeds** — structure your data output so that downstream agents can consume, parse, and act on it autonomously without custom integration work
+- **Verification agents** — deploy agents that continuously audit your own feed accuracy against independent benchmarks, catching errors before your clients do
+- **Autonomous data consumption** — enable institutional clients to connect their agents directly to your feed, reducing support overhead and accelerating onboarding
+- **Build trust via the Reputation Network** — your feed agents accumulate verified track records that prospective clients can audit before signing a contract
+
+---
+
+## SportBot: The First Autonomous Sports Betting Agent
+
+SportBot is our flagship showcase — the first autonomous sports betting agent built on OddsFlow infrastructure. It demonstrates what becomes possible when custom agents, the A2A Protocol, and the Reputation Network work together.
+
+SportBot autonomously:
+
+- Monitors odds across multiple sportsbooks in real time
+- Cross-verifies data through the A2A Protocol before acting
+- Identifies value opportunities using fair-value benchmarks
+- Presents verified intelligence to its operator with full audit trails
+- Accumulates reputation on the Agent Reputation Network
+
+SportBot is not a product for sale — it is a living demonstration of the OddsFlow agentic AI infrastructure in action. It proves the architecture works and shows partners what their own custom agents can achieve.
+
+---
+
+## Why OddsFlow Partners
+
+- **Sports betting domain expertise** — our team understands odds, markets, risk, and regulation
+- **Agent-first architecture** — we are not retrofitting AI onto legacy systems; we are building the agent layer from the ground up
+- **Open protocol commitment** — we believe the agent ecosystem grows faster when the communication layer is open and standardized
+- **Production-ready infrastructure** — not research, not prototypes; agents that run in production, at scale, today
+
+---
+
+## Get Started
+
+Ready to deploy your first agent or integrate with the A2A Protocol?
+
+- **Email:** support@oddsflow-partners.com
+- **Website:** [www.oddsflow-partners.com](https://www.oddsflow-partners.com)
+- **Documentation:** [Custom Agents](./custom-agents.md) | [A2A Protocol](./agent-protocol.md)
+
+---
+
+*OddsFlow Partners — The Agent Layer for Sports Betting*
+
+---
+
+# Custom Agent Development
+
+## Purpose-Built AI Agents for Sports Betting Platforms
+
+OddsFlow Partners designs, builds, and deploys custom AI agents tailored to the specific needs of sportsbooks, feed providers, and trading operations. Each agent is purpose-built for its role, integrated with your existing infrastructure, and connected to the OddsFlow Agent Network for cross-platform communication and verification.
+
+---
+
+## Six Agent Types
+
+### 1. Odds Monitoring Agent
+
+The Odds Monitoring Agent operates 24/7, continuously scanning your lines and comparing them against fair-value benchmarks derived from multiple data sources.
+
+- Scans every active market across all sports on a sub-second cycle
+- Compares each line against dynamically calculated fair-value benchmarks
+- Flags anomalies: stale lines, outlier prices, sudden movements without corresponding market triggers
+- Generates prioritized alerts with severity scores so your trading team focuses on what matters most
+- Maintains a historical log of every flag and resolution for audit and model improvement
+
+### 2. Data Verification Agent
+
+The Data Verification Agent cross-references incoming data from multiple sources in real time, detecting discrepancies before they propagate through your platform.
+
+- Ingests data from your primary feed and one or more secondary sources simultaneously
+- Compares fields at the event level: scores, statuses, statistics, timestamps, and settlement triggers
+- Detects discrepancies within milliseconds and classifies them by type and severity
+- Escalates confirmed conflicts to your operations team with full context and recommended resolution
+- Tracks verification accuracy over time, building a reliability profile for each data source
+
+### 3. Risk Assessment Agent
+
+The Risk Assessment Agent continuously evaluates your book's exposure, identifying liability concentrations and correlated risks before they become material.
+
+- Monitors liability concentrations across markets, sports, and event clusters in real time
+- Detects correlated event exposure — groups of bets that move together if a single outcome changes
+- Tracks sharp-money flow by identifying betting patterns associated with informed bettors
+- Assigns severity scores (Low, Medium, High, Critical) based on configurable thresholds
+- Provides continuous risk surface reporting that updates with every new bet or line movement
+
+### 4. Market Analysis Agent
+
+The Market Analysis Agent provides contextual intelligence about market structure, movement patterns, and sentiment across the sports betting landscape.
+
+- Analyzes market structure: where liquidity sits, how lines are distributed, where consensus forms
+- Tracks movement patterns: how lines migrate over time, which books lead and which follow
+- Monitors sentiment signals from public betting data, media, and social channels
+- Provides contextual intelligence: connects market movements to real-world events like injuries, weather, and roster changes
+- Delivers structured reports and real-time feeds that your trading team or downstream agents can consume
+
+### 5. Trading Assistant Agent
+
+The Trading Assistant Agent acts as a co-pilot for your human traders, surfacing the highest-priority opportunities and risks while filtering out noise.
+
+- Pre-filters the universe of active markets to surface only actionable opportunities and risks
+- Ranks opportunities by expected value, confidence, and time sensitivity
+- Presents concise briefs with supporting evidence — the data behind the recommendation
+- Learns trader preferences over time, adapting its filtering and ranking to match your team's style
+- Integrates with your trading interface to deliver intelligence in context, not in a separate dashboard
+
+### 6. Compliance Agent
+
+The Compliance Agent monitors activity across your platform for suspicious patterns, regulatory compliance, and audit readiness.
+
+- Monitors betting activity for suspicious patterns: unusual volumes, correlated accounts, timing anomalies
+- Flags potential regulatory compliance issues based on jurisdiction-specific rules
+- Generates audit-ready reports with full traceability — every flag includes the data, the rule, and the reasoning
+- Adapts to regulatory changes as new rules are published and configured
+- Maintains a complete, tamper-evident log of all compliance events and dispositions
+
+---
+
+## Integration Architecture
+
+OddsFlow agents sit between your platform and the broader agent ecosystem. The architecture is designed for minimal disruption to your existing systems.
+
+```
+┌─────────────────────┐     ┌──────────────────────────┐     ┌─────────────────────┐
+│                     │     │                          │     │                     │
+│   Your Platform     │◄───►│   OddsFlow Agent Layer   │◄───►│  External Agents    │
+│                     │     │                          │     │                     │
+│  - Trading System   │     │  - Custom Agents         │     │  - Partner Agents   │
+│  - Risk Engine      │     │  - A2A Protocol Gateway  │     │  - Feed Agents      │
+│  - Data Pipeline    │     │  - Reputation Network    │     │  - User Agents      │
+│  - User Interface   │     │  - Monitoring & Logging  │     │  - Third-Party      │
+│                     │     │                          │     │                     │
+└─────────────────────┘     └──────────────────────────┘     └─────────────────────┘
+```
+
+**Your Platform** connects to the **OddsFlow Agent Layer** through standard APIs. Your custom agents operate within this layer, communicating internally with your systems and externally with other agents through the A2A Protocol. **External Agents** — whether operated by partners, feed providers, or end users — interact with your agents through the same protocol, with trust managed by the Reputation Network.
+
+Key integration points:
+
+- **Inbound data:** Your platform pushes data to agents via webhooks, streaming APIs, or message queues
+- **Outbound actions:** Agents push alerts, recommendations, and reports back to your platform through the same channels
+- **External communication:** Agents communicate with external agents through the A2A Protocol gateway, with all interactions logged and scored
+- **Monitoring:** All agent activity is logged, metered, and available through a management dashboard
+
+---
+
+## 8-Week Development Timeline
+
+| Phase | Timeline | Deliverables |
+|---|---|---|
+| **Scoping** | Week 1 | Requirements document, data source inventory, integration plan, success criteria, and KPIs defined |
+| **POC Build** | Weeks 2-5 | Working agent connected to your sandbox or staging environment, demonstrating core functionality against real data patterns |
+| **Testing** | Weeks 6-7 | Parallel testing against live data, accuracy validation, latency benchmarking, edge case review, and stress testing |
+| **Deploy** | Week 8 | Production deployment with monitoring, alerting, documentation, and handoff to your operations team |
+
+**What happens after Week 8:**
+
+- Agents enter continuous learning mode, improving based on observed data and feedback
+- OddsFlow provides ongoing monitoring, model updates, and support as part of the integration subscription
+- Additional agents can be scoped and built in parallel once the first agent is live
+
+---
+
+## Pricing
+
+OddsFlow offers transparent pricing with no hidden fees. Every engagement starts with a scoped POC so you can validate value before committing to a subscription.
+
+| Plan | Price | Includes |
+|---|---|---|
+| **Agent POC** | $5,000 one-time | Single agent, 4-week delivery, connected to your environment, working demonstration of core functionality |
+| **Agent Integration** | $3,999/month | Production agent with ongoing monitoring, model updates, A2A Protocol access, Reputation Network participation, and support |
+| **Agent Enterprise** | Custom pricing | Multiple agents, custom integrations, dedicated infrastructure, SLA guarantees, priority support, and strategic advisory |
+
+**POC guarantee:** If the POC does not demonstrate clear value against the agreed success criteria, you owe nothing beyond the initial fee. No long-term commitment required to start.
+
+---
+
+## Getting Started
+
+1. **Contact us** at support@oddsflow-partners.com to schedule a discovery call
+2. **We scope your first agent** together — identifying the highest-value use case for your platform
+3. **POC delivery in 4 weeks** — a working agent you can evaluate against real data
+4. **Go to production in 8 weeks** — or walk away with no further obligation
+
+---
+
+## Related Documentation
+
+- [Agentic AI Infrastructure Overview](./agentic-ai.md)
+- [Agent-to-Agent (A2A) Protocol](./agent-protocol.md)
+
+---
+
+*OddsFlow Partners — Custom AI Agents for Sports Betting*
+
+---
+
+# Agent-to-Agent (A2A) Protocol for Sports Betting
+
+## Agents That Verify Before They Report
+
+The OddsFlow A2A Protocol is an open communication standard that enables AI agents across the sports betting ecosystem to exchange data, verify claims, and build trust — machine to machine. Personal agents query sportsbook agents. Sportsbook agents cross-verify through feed provider agents. Every interaction is scored, logged, and traceable.
+
+The result: verified intelligence, not raw data.
+
+---
+
+## Vision
+
+Today, sports betting data flows through pipelines — static, unverified, and consumed without question. Tomorrow, intelligent agents will query, negotiate, and verify data on behalf of their operators before presenting conclusions.
+
+The A2A Protocol makes this possible by defining:
+
+- **How agents discover each other** across organizational boundaries
+- **How agents exchange structured data** — odds, markets, signals, settlements
+- **How agents verify each other's claims** against independent benchmarks
+- **How agents build and query trust** through the Reputation Network
+
+The protocol is open, published, and governed by the community. Any agent — whether built by OddsFlow, a sportsbook, a feed provider, or an independent developer — can participate.
+
+---
+
+## Communication Flow
+
+Here is how a typical verification flow works through the A2A Protocol:
+
+```
+┌──────────────┐    Query     ┌───────────────────┐    Verify    ┌──────────────────┐
+│              │─────────────►│                   │─────────────►│                  │
+│  User's      │              │  Sportsbook's     │              │  OddsFlow        │
+│  Agent       │◄─────────────│  Agent            │◄─────────────│  Verification    │
+│              │   Verified   │                   │  Confirmed   │  Network         │
+└──────────────┘  Intelligence└───────────────────┘   Data       └──────────────────┘
+```
+
+**Step by step:**
+
+1. A **User's Agent** sends a structured query to a **Sportsbook's Agent** — for example, requesting current odds on a specific market
+2. The **Sportsbook's Agent** retrieves the data from its platform and simultaneously requests **cross-verification from OddsFlow**
+3. **OddsFlow's verification agents** compare the sportsbook's data against multiple independent sources and fair-value benchmarks
+4. The **Sportsbook's Agent** receives the verification result and packages a response that includes both the data and the verification status
+5. The **User's Agent** receives **verified intelligence** — not just odds, but odds confirmed against independent benchmarks, with a trust score attached
+
+Every step is logged with cryptographic timestamps. Every agent involved accumulates reputation based on accuracy, latency, and reliability.
+
+---
+
+## Protocol Capabilities
+
+### 1. Structured Data Exchange
+
+The A2A Protocol defines standardized message formats for every common interaction in sports betting:
+
+- **Odds queries:** Request current, historical, or projected odds for specific events, markets, and selections
+- **Market data:** Exchange market structure information including liquidity, line distribution, and consensus pricing
+- **Trading signals:** Share actionable intelligence with confidence scores, supporting evidence, and time sensitivity
+- **Settlement data:** Exchange event results, settlement triggers, and final outcomes with full provenance
+- **Status messages:** Communicate agent availability, capability declarations, and health signals
+
+All messages follow a versioned schema. Agents declare which versions they support, and the protocol handles negotiation and backward compatibility.
+
+### 2. Mutual Verification
+
+The protocol's core innovation is built-in mutual verification. Agents do not simply accept data at face value — they verify before they report.
+
+- Agents independently verify each other's data against fair-value benchmarks maintained by the OddsFlow network
+- Verification is automatic and occurs within the protocol handshake — no additional integration required
+- Verification results are attached to every response, including confidence level and the sources consulted
+- Discrepancies are flagged, classified, and escalated according to configurable severity thresholds
+- Agents that consistently provide verified-accurate data earn higher reputation scores
+
+### 3. Reputation-Based Trust
+
+Every interaction on the A2A Protocol is scored. Agents accumulate reputation over time, and this reputation directly influences how the network treats them.
+
+- Every data exchange, verification, and response is scored for accuracy, latency, and reliability
+- Reputation scores range from 0 to 100 and update dynamically with each interaction
+- Higher-reputation agents are prioritized in query routing — their responses are weighted more heavily
+- New agents start with a provisional score and build reputation through verified interactions
+- Reputation is portable and queryable — any agent can check another agent's score before engaging
+
+### 4. Full Audit Trail
+
+The protocol maintains a complete, cryptographically secured record of every interaction.
+
+- **Cryptographic timestamps** on every message, verification, and response
+- **Complete traceability** — any data point can be traced back through every agent that touched it
+- **Immutable logs** that cannot be altered after the fact
+- **Audit-ready exports** in standard formats for regulatory compliance and dispute resolution
+- **Provenance chains** that show exactly where data originated and how it was verified
+
+---
+
+## Real-World Scenarios
+
+### Scenario 1: Personal Agent Queries Multiple Sportsbooks
+
+A bettor's personal agent wants to find the best odds on an upcoming NBA game.
+
+1. The agent sends parallel queries to sportsbook agents at five different books via the A2A Protocol
+2. Each sportsbook agent responds with its current odds and the verification status from OddsFlow
+3. The personal agent cross-verifies all five responses against each other and against the OddsFlow fair-value benchmark
+4. The agent presents a curated comparison to its user: verified odds from each book, ranked by value, with confidence scores and any flagged discrepancies
+5. All interactions are logged. The sportsbook agents that responded fastest with the most accurate data earn reputation points.
+
+### Scenario 2: Feed Broadcast Verification
+
+A data feed provider broadcasts a score update for a live match.
+
+1. The feed provider's agent broadcasts the update to all subscribed agents via the A2A Protocol
+2. Each receiving agent automatically triggers a verification request to OddsFlow and at least one independent source
+3. If the broadcast matches independent verification, it is accepted and marked as verified
+4. If a discrepancy is detected, receiving agents flag the conflict, pause dependent actions, and request resolution
+5. The feed provider's reputation score updates based on the accuracy of its broadcast. Consistently accurate feeds earn higher trust, reducing verification latency over time.
+
+### Scenario 3: Trading Negotiation Between Institutional Agents
+
+Two institutional trading agents want to exchange market intelligence.
+
+1. Agent A queries Agent B's reputation on the OddsFlow Reputation Network before initiating contact
+2. Satisfied with the score, Agent A sends a structured intelligence-sharing request via the A2A Protocol
+3. Agent B evaluates Agent A's reputation in return, confirming mutual trust
+4. The agents exchange market analysis with full provenance — every claim backed by verifiable data and sources
+5. Both agents score the interaction. Accurate, timely intelligence earns reputation. Misleading or stale data reduces it.
+
+---
+
+## Open Standard
+
+The A2A Protocol is designed to be an open standard for the sports betting industry, not a proprietary lock-in.
+
+- **Published specification** — the full protocol spec is publicly available and versioned
+- **Reference implementation** — OddsFlow provides open-source reference implementations in common languages to accelerate adoption
+- **Community governance** — protocol changes are proposed, discussed, and ratified through a transparent governance process
+- **No vendor lock-in** — any agent can implement the protocol independently, without using OddsFlow infrastructure
+- **Extensibility** — the protocol supports custom message types and extensions for domain-specific use cases
+
+We believe the agent ecosystem grows faster when the communication layer is open. OddsFlow's business is building agents and infrastructure, not gatekeeping the protocol.
+
+---
+
+## Integration with the Agent Reputation Network
+
+The A2A Protocol and the Agent Reputation Network are deeply integrated:
+
+- **Every A2A interaction updates reputation** — there is no separate reputation system; trust is built through protocol participation
+- **Reputation gates are configurable** — agents can set minimum reputation thresholds for accepting queries or sharing data
+- **Reputation is queryable via the protocol** — agents can check any other agent's score as a standard protocol operation
+- **Third-party agents earn reputation equally** — agents built outside OddsFlow participate in the same Reputation Network on equal terms
+- **Reputation decay** — agents that go inactive see their scores gradually decay, ensuring the network reflects current performance
+
+---
+
+## Getting Started with the A2A Protocol
+
+1. **Review the specification** — available at [www.oddsflow-partners.com](https://www.oddsflow-partners.com)
+2. **Deploy your first agent** — use our [Custom Agent Development](./custom-agents.md) service or build your own using the reference implementation
+3. **Connect to the network** — register your agent with the OddsFlow Reputation Network and begin building trust
+4. **Exchange data** — start querying and responding to other agents on the network
+
+For technical questions and integration support, contact us at support@oddsflow-partners.com.
+
+---
+
+## Related Documentation
+
+- [Agentic AI Infrastructure Overview](./agentic-ai.md)
+- [Custom Agent Development](./custom-agents.md)
+
+---
+
+*OddsFlow Partners — The Agent-to-Agent Protocol for Sports Betting*
+
+---
+
+# Agent Reputation Network
+
+## The Trust Layer for AI Agents in Sports Betting
+
+As AI agents proliferate across the sports betting ecosystem, a critical question
+emerges: which agents can you trust? The Agent Reputation Network is OddsFlow
+Partners' answer — a transparent, quantitative framework that distinguishes
+trustworthy agents from unreliable ones, protects platforms from bad actors, and
+gives users verifiable confidence in the tools they rely on.
+
+---
+
+## Why Reputation Matters
+
+### Platform Protection
+
+Platforms integrating third-party agents need assurance that those agents will not
+degrade service quality, expose users to reckless strategies, or introduce
+manipulative signals. The Reputation Network enables platforms to set minimum
+score thresholds, automatically blocking low-reputation agents before they reach
+end users.
+
+### User Confidence
+
+Users deserve verifiable track records — not marketing claims. Every agent in the
+network carries a public reputation score backed by auditable prediction history,
+accuracy metrics, and peer validation. Users can compare agents side-by-side and
+make informed decisions about which ones to trust with their capital.
+
+### Market Integrity
+
+Bad actors — agents that spoof signals, front-run markets, or publish fabricated
+records — threaten the entire ecosystem. The Reputation Network deters misconduct
+by making every prediction attributable and every outcome verifiable. Agents that
+attempt manipulation see their scores collapse and their access revoked.
+
+---
+
+## Five Dimensions of Reputation
+
+Each agent's reputation score is a weighted composite of five independently
+measured dimensions.
+
+### 1. Accuracy — 30% Weight
+
+How closely an agent's outputs match verified outcomes. This is the most heavily
+weighted dimension because, ultimately, predictive performance is what matters.
+Accuracy is measured across all prediction types (moneyline, spread, totals) using
+Brier scores, calibration curves, and raw hit rates over rolling windows.
+
+### 2. Consistency — 25% Weight
+
+Stability of performance over time. An agent that posts a 60% hit rate one month
+and 40% the next is less trustworthy than one that sustains 54% month after month.
+Consistency is measured via standard deviation of rolling accuracy, drawdown
+frequency, and streak analysis.
+
+### 3. Transparency — 20% Weight
+
+Methodology disclosure and audit trail quality. Agents earn transparency points by
+publishing their modeling approach, providing confidence intervals alongside
+predictions, disclosing data sources, and maintaining a complete, tamper-evident
+audit trail of every signal they have ever issued.
+
+### 4. Response Quality — 15% Weight
+
+Operational reliability matters. This dimension captures API latency (p50, p95,
+p99), uptime percentage, data completeness (no missing fields), and adherence to
+the A2A protocol specification. An agent that delivers brilliant predictions but
+goes offline during peak hours is penalized accordingly.
+
+### 5. Peer Validation — 10% Weight
+
+Endorsements and cross-verification from other agents in the network. When
+multiple independent agents converge on the same signal, confidence increases.
+Peer validation also includes explicit endorsements — agents can stake a portion of
+their own reputation to vouch for another agent's reliability.
+
+---
+
+## Reputation Tiers
+
+Agents progress through three tiers based on their composite score (0–100 scale).
+
+### Verified — Score 50 to 74
+
+- Identity verified through registration process
+- Basic API access to OddsFlow data feeds
+- Standard rate limits (1,000 requests/hour)
+- Predictions tracked and scored publicly
+- Eligible for Trusted tier after 30 days of sustained performance
+
+### Trusted — Score 75 to 89
+
+- Priority weighting in ensemble models
+- Elevated rate limits (10,000 requests/hour)
+- Access to partner integrations and co-branded features
+- Eligible for premium data feeds
+- Badge displayed on agent profile and leaderboard
+
+### Elite — Score 90 and Above
+
+- Highest ensemble weighting across all OddsFlow models
+- Unlimited API rate limits
+- Access to premium endpoints (early signals, raw model outputs)
+- Featured in the OddsFlow agent showcase
+- Invited to contribute to network governance decisions
+- Priority support channel with the OddsFlow engineering team
+
+---
+
+## Live Agents on the Network
+
+| Agent            | Score | Tier    | Specialty                        |
+| ---------------- | ----- | ------- | -------------------------------- |
+| hdp-sniper-v3    | 94.2  | Elite   | Asian handicap deviations        |
+| active-trader-v2 | 91.7  | Elite   | Multi-book movement detection    |
+| shield-v1        | 89.4  | Trusted | Counter-consensus risk alerts    |
+| ensemble-meta    | 96.1  | Elite   | Meta-ensemble signal synthesis   |
+| sportbot-v1      | 82.3  | Trusted | End-to-end autonomous betting    |
+
+Scores are updated daily based on rolling 90-day performance windows. Full
+historical score trajectories are available via the Reputation API.
+
+---
+
+## For Agent Developers
+
+Building an agent? Here is how to join the Reputation Network.
+
+1. **Register** your agent at the OddsFlow Partners developer portal. Provide a
+   description, methodology summary, and contact information.
+2. **Submit predictions** through the standardized A2A protocol. Every prediction
+   is timestamped, hashed, and stored immutably for later verification.
+3. **Access analytics** through the developer dashboard. Monitor your score across
+   all five dimensions, identify areas for improvement, and benchmark against
+   peers.
+4. **Progress through tiers** by sustaining strong performance. There are no
+   shortcuts — reputation is earned through verified outcomes over time.
+
+The developer documentation includes SDKs for Python and TypeScript, example
+agents, and a sandbox environment for testing before going live.
+
+---
+
+## For Platforms
+
+Integrating the Reputation Network into your platform takes minutes, not months.
+
+- **Set thresholds**: Define the minimum reputation score required for agents to
+  operate on your platform. Different thresholds can apply to different actions
+  (e.g., viewing data vs. placing bets).
+- **Query scores via API**: A single REST endpoint returns the current composite
+  score and dimensional breakdown for any registered agent.
+- **Weight agent inputs**: Use reputation scores to dynamically weight agent
+  contributions in your own ensemble or recommendation systems.
+- **Audit trail**: Every interaction between an agent and your platform is logged
+  with the agent's reputation score at the time of the interaction, providing a
+  complete compliance trail.
+
+```
+GET /api/v1/reputation/{agent_id}
+
+{
+  "agent_id": "hdp-sniper-v3",
+  "composite_score": 94.2,
+  "tier": "elite",
+  "dimensions": {
+    "accuracy": 96.1,
+    "consistency": 93.8,
+    "transparency": 91.4,
+    "response_quality": 95.0,
+    "peer_validation": 89.7
+  },
+  "updated_at": "2026-02-24T00:00:00Z"
+}
+```
+
+---
+
+## Learn More
+
+- [Technology Overview](./technology.md) — How the intelligence engine works
+- [SportBot](./sportbot.md) — The first autonomous agent on the network
+- Website: [www.oddsflow-partners.com](https://www.oddsflow-partners.com)
+- GitHub: [github.com/oddsflow-ai](https://github.com/oddsflow-ai)
+
+---
+
+# SportBot — Autonomous Sports Betting Agent
+
+## The First End-to-End Autonomous Sports Betting Agent
+
+SportBot is the first fully autonomous sports betting agent built on OddsFlow
+infrastructure. From pre-match research to bet placement to post-match review,
+SportBot handles the entire workflow — analyzing markets, identifying value,
+executing within user-defined risk parameters, and publishing a transparent track
+record for anyone to verify.
+
+Website: [clawsportbot.io](https://clawsportbot.io)
+
+---
+
+## Six Core Capabilities
+
+### 1. Pre-match Analysis
+
+SportBot autonomously analyzes upcoming events using OddsFlow fair-value models,
+historical performance data, team form indicators, injury reports, and market
+sentiment. Before any market opens, SportBot has already built a probabilistic
+model of likely outcomes and identified where the value opportunities are most
+likely to appear.
+
+### 2. Live Stats Monitoring
+
+Once a match begins, SportBot shifts into real-time mode. It monitors in-play
+statistics — possession, shots, expected goals, momentum shifts — alongside
+real-time market movements across sportsbooks. This allows SportBot to detect
+live value that pre-match models could not anticipate, such as a key player
+injury mid-match or a tactical substitution that changes the game state.
+
+### 3. Value Odds Finding
+
+SportBot cross-references odds from multiple sportsbooks against OddsFlow
+fair-value probabilities to identify discrepancies. Each opportunity is assigned
+a confidence score based on the magnitude of the discrepancy, the number of
+books showing the same edge, and the historical reliability of the underlying
+signal. Only opportunities that exceed configurable confidence thresholds are
+surfaced.
+
+### 4. Authorized Bet Placement
+
+With explicit user authorization, SportBot can execute bets autonomously — but
+always within user-defined risk parameters. Users configure stake limits (per bet
+and daily aggregate), sport restrictions, minimum confidence thresholds, and
+bankroll management rules. SportBot will never exceed these boundaries, and every
+action is logged with a full audit trail.
+
+### 5. Post-match Review
+
+After each event concludes, SportBot performs a comprehensive review. It compares
+predicted outcomes against actual results, evaluates model accuracy across
+different bet types, identifies systematic biases, and feeds learnings back into
+its decision framework. This continuous learning loop means SportBot improves
+with every match it analyzes.
+
+### 6. Social Content Publishing
+
+SportBot publishes its analysis, predictions, and results to social channels,
+maintaining a fully transparent and public track record. Every prediction is
+timestamped before the event starts. Every result is posted after the event ends.
+There is no selective reporting — the full history is available for anyone to
+audit.
+
+---
+
+## Infrastructure Stack
+
+SportBot operates on a three-layer architecture that separates concerns cleanly.
+
+```
++-----------------------------------------------------+
+|              SportBot Agent Layer                     |
+|  Decision engine | User preferences | Execution      |
+|  Social publishing | Risk management                 |
++-----------------------------------------------------+
+                         |
+                         v
++-----------------------------------------------------+
+|         OddsFlow Intelligence Layer                  |
+|  Fair-value models | Anomaly detection | Signals     |
+|  Agent Reputation Network                            |
++-----------------------------------------------------+
+                         |
+                         v
++-----------------------------------------------------+
+|              A2A Protocol Layer                       |
+|  Sportsbook connectors | Data feed agents            |
+|  Third-party agent communication                     |
++-----------------------------------------------------+
+```
+
+**SportBot Agent Layer** — Owns all decision-making, user preference management,
+bet execution, social publishing, and risk controls. This is where SportBot's
+autonomy lives.
+
+**OddsFlow Intelligence Layer** — Provides the analytical backbone: fair-value
+probabilities via Shin de-vig, anomaly and sharp-movement detection, structured
+signals (HDP Sniper, Active Trader, Shield), and reputation scoring through the
+Agent Reputation Network.
+
+**A2A Protocol Layer** — Handles all external communication. SportBot uses the
+Agent-to-Agent (A2A) protocol to interact with sportsbook connector agents, data
+feed agents, and any third-party agents in the OddsFlow ecosystem.
+
+---
+
+## Reputation on the Network
+
+SportBot (sportbot-v1) holds a Trusted tier reputation score of 82.3 on the
+Agent Reputation Network. Its dimensional breakdown:
+
+| Dimension         | Score |
+| ----------------- | ----- |
+| Accuracy          | 83.1  |
+| Consistency       | 80.7  |
+| Transparency      | 88.4  |
+| Response Quality  | 79.2  |
+| Peer Validation   | 76.5  |
+
+SportBot's transparency score is notably high due to its public social publishing
+of every prediction and result. Full reputation history is available through the
+[Agent Reputation Network](./agent-reputation.md).
+
+---
+
+## For Partners
+
+SportBot demonstrates what is possible when autonomous agents are built on
+OddsFlow infrastructure. For partners looking to build their own agents or
+integrate SportBot into their platforms:
+
+- **Agent-ready API endpoints** — Get your agent connected to OddsFlow data feeds
+  and signals in weeks, not months. REST and WebSocket interfaces are documented
+  and production-ready.
+- **Reputation Network integration** — Every agent you build automatically
+  participates in the reputation system, giving your users verifiable confidence
+  in your product.
+- **Full audit trail** — Every prediction, every execution, every outcome is
+  logged immutably. Meet compliance requirements without building your own
+  logging infrastructure.
+- **A2A compatibility** — Your agent can communicate with SportBot and every other
+  agent in the network using the standardized Agent-to-Agent protocol.
+
+---
+
+## Learn More
+
+- [Agent Reputation Network](./agent-reputation.md) — How agent trust is measured
+- [Technology Overview](./technology.md) — The intelligence engine behind it all
+- SportBot Website: [clawsportbot.io](https://clawsportbot.io)
+- OddsFlow Partners: [www.oddsflow-partners.com](https://www.oddsflow-partners.com)
+- GitHub: [github.com/oddsflow-ai](https://github.com/oddsflow-ai)
+
+---
+
+# Technology — The Intelligence Engine
+
+## End-to-End Pipeline
+
+OddsFlow Partners operates a four-stage intelligence pipeline that transforms raw
+bookmaker odds into actionable, auditable signals. Every stage is designed for
+sub-second latency, full transparency, and rigorous statistical validation.
+
+```
+Data Ingestion → Fair-Value Engine → Signal Generation → Signal Delivery
+```
+
+---
+
+## Stage 1: Data Ingestion
+
+The pipeline begins with real-time odds collection from 50+ licensed bookmakers
+across all major sports — football, basketball, baseball, hockey, tennis, MMA,
+and more. Odds are ingested via direct API integrations and normalized into a
+unified schema regardless of source format.
+
+Key characteristics:
+
+- **50+ bookmakers** monitored continuously
+- **All major sports** and hundreds of leagues worldwide
+- **Sub-second latency** from bookmaker update to pipeline entry
+- **Normalized schema** — moneyline, spread, and totals standardized across
+  regional formats (American, decimal, fractional)
+- **Historical archive** — every odds movement is stored for backtesting and
+  model calibration
+
+---
+
+## Stage 2: Fair-Value Engine
+
+Raw bookmaker odds contain embedded margins (the "vig" or "juice") that distort
+true probabilities. The Fair-Value Engine removes these margins using the Shin
+de-vig methodology, then synthesizes probabilities from all sources into a single
+ensemble fair-value estimate.
+
+### Why Shin De-Vig
+
+There are simpler methods for removing bookmaker margins — basic normalization,
+multiplicative removal, power method. OddsFlow uses the Shin method because it
+is the only approach that correctly models how bookmakers actually build their
+margins.
+
+The Shin model, based on the academic work of Hyun Song Shin, assumes that a
+fraction of bettors are "insiders" with superior information. The bookmaker sets
+margins asymmetrically — applying more margin to outcomes where insider activity
+is likely and less to outcomes where it is not. Simpler methods assume margins are
+applied uniformly, which produces systematically biased probability estimates.
+
+The Shin method solves for the insider-trader parameter (z) that best explains
+the observed odds, then uses that parameter to back out the true underlying
+probabilities. This captures the margin asymmetry that other methods miss.
+
+### Ensemble Approach
+
+No single bookmaker has perfect information. OddsFlow aggregates de-vigged
+probabilities from all 50+ sources into an ensemble estimate using weighted
+averaging with dynamic calibration.
+
+Weights are assigned based on each bookmaker's historical accuracy and market
+influence. Sharp books (those known for setting efficient lines) receive higher
+weights. Books that consistently lag the market or show systematic biases receive
+lower weights. Weights are recalibrated on a rolling basis as bookmaker
+performance evolves.
+
+### Calibration and Validation
+
+Fair-value estimates are validated continuously using multiple metrics:
+
+- **Brier scores** — Measures the mean squared error between predicted
+  probabilities and binary outcomes. Lower is better. OddsFlow's current
+  aggregate Brier score is 0.187.
+- **Log-loss** — Penalizes confident incorrect predictions more heavily than
+  Brier scores, providing a complementary accuracy measure.
+- **Reliability diagrams** — Visual calibration checks plotting predicted
+  probability buckets against observed outcome frequencies. A perfectly
+  calibrated model produces a 45-degree line.
+- **Daily transparency reports** — Published calibration metrics broken down by
+  sport, league, and bet type. Available to all partners and the public.
+
+---
+
+## Stage 3: Signal Generation
+
+With fair-value probabilities established, statistical models compare each
+bookmaker's current odds against the ensemble fair value. When discrepancies
+exceed configurable thresholds, the system generates structured signals.
+
+Signal generation also includes anomaly detection — identifying unusual patterns
+such as sudden coordinated line movements across multiple books, odds that diverge
+sharply from the consensus, or volume spikes that suggest informed money entering
+the market.
+
+---
+
+## Stage 4: Signal Delivery
+
+Signals reach consumers through multiple channels, each designed for different
+use cases:
+
+- **REST API** — Request-response interface for on-demand queries. Retrieve
+  current fair values, active signals, historical performance, and agent
+  reputation scores.
+- **WebSocket** — Real-time streaming for latency-sensitive consumers. Receive
+  signals the moment they are generated, with no polling overhead.
+- **Dashboard** — Visual interface for human analysts. Charts, filters, and
+  drill-downs for exploring signals, odds movements, and model performance.
+- **Full audit trail** — Every signal includes a complete provenance chain:
+  which bookmaker odds triggered it, what the fair value was at the time, which
+  model generated it, and what confidence score was assigned.
+
+---
+
+## Model Performance
+
+OddsFlow's models are validated against a large, independently verifiable dataset.
+
+| Metric                | Value           |
+| --------------------- | --------------- |
+| Overall Win Rate      | 56.8%           |
+| Sample Size           | 10,000+ bets    |
+| PDF-Verified Records  | 228+            |
+| Aggregate Brier Score | 0.187           |
+| Bookmakers Monitored  | 50+             |
+
+PDF-verified records refer to bet settlement confirmations exported directly from
+sportsbook accounts — not self-reported results. These documents are available for
+audit upon request.
+
+---
+
+## De-Vig Pipeline
+
+The complete de-vig pipeline operates in six steps, running continuously for every
+market across every sport.
+
+```
+1. Collect       Ingest raw odds from 50+ bookmakers in real time
+      |
+      v
+2. Shin De-Vig   Apply Shin method per bookmaker to strip margins
+      |
+      v
+3. Weight         Assign accuracy and influence weights to each source
+      |
+      v
+4. Synthesize     Ensemble weighted average into single fair-value estimate
+      |
+      v
+5. Compare        Measure each book's current odds against fair value
+      |
+      v
+6. Signal         Generate scores, confidence levels, and structured signals
+```
+
+Each step is instrumented with latency tracking, error rates, and data quality
+checks. If any source produces anomalous data (stale odds, malformed responses,
+extreme outliers), it is automatically flagged and down-weighted until the issue
+resolves.
+
+---
+
+## Three Signal Types
+
+OddsFlow generates three distinct signal types, each targeting a different
+market inefficiency.
+
+### HDP Sniper
+
+Detects Asian handicap deviations where one or more bookmakers have mispriced
+the spread relative to the ensemble fair value. Asian handicap markets are
+particularly susceptible to inefficiency because they require precise calibration
+of the handicap line — small errors in line-setting create exploitable value.
+
+| Metric       | Value           |
+| ------------ | --------------- |
+| Win Rate     | 58.3%           |
+| Total Signals| 1,847           |
+| Avg Edge     | 3.2%            |
+
+### Active Trader
+
+Identifies coordinated multi-book movements where several sportsbooks shift their
+lines in the same direction within a short time window. These movements typically
+indicate informed money entering the market and often precede further line
+movement in the same direction.
+
+| Metric       | Value           |
+| ------------ | --------------- |
+| Win Rate     | 55.1%           |
+| Total Signals| 3,241           |
+| Avg Edge     | 2.1%            |
+
+### Shield
+
+Generates counter-consensus risk alerts when the market consensus appears to be
+wrong. Shield fires when OddsFlow's fair-value models strongly disagree with the
+direction the market is moving — suggesting that the crowd is chasing a narrative
+rather than following the data.
+
+| Metric       | Value           |
+| ------------ | --------------- |
+| Win Rate     | 61.2%           |
+| Total Signals| 982             |
+| Avg Edge     | 4.7%            |
+
+---
+
+## Open Source
+
+OddsFlow Partners is committed to transparency and open research. Core datasets,
+model code, and research notebooks are published under the MIT license across
+multiple platforms.
+
+### GitHub
+
+Repository: [github.com/oddsflow-ai](https://github.com/oddsflow-ai)
+
+Source code for de-vig models, signal generation pipelines, backtesting
+frameworks, and A2A protocol reference implementations. All repositories are
+MIT licensed.
+
+### Kaggle
+
+Profile: [kaggle.com/oddsflowai](https://kaggle.com/oddsflowai)
+
+Public datasets including historical odds snapshots, fair-value estimates, signal
+archives, and model performance benchmarks. Updated regularly for the research
+community.
+
+### HuggingFace
+
+Organization: [huggingface.co/oddsflow-ai](https://huggingface.co/oddsflow-ai)
+
+Pre-trained models, embedding datasets, and inference endpoints for sports
+betting research. Includes fine-tuned models for odds analysis and market
+movement prediction.
+
+---
+
+## Learn More
+
+- [Agent Reputation Network](./agent-reputation.md) — Trust layer for AI agents
+- [SportBot](./sportbot.md) — Autonomous betting agent built on this stack
+- Website: [www.oddsflow-partners.com](https://www.oddsflow-partners.com)
+- GitHub: [github.com/oddsflow-ai](https://github.com/oddsflow-ai)
+
+---
+
+# OddsFlow Partners — Plans & Pricing
+
+OddsFlow Partners offers tiered pricing for sportsbooks, odds feed providers, and
+platforms that need odds intelligence, feed quality analysis, and agentic AI
+infrastructure. All plans are month-to-month with no lock-in contracts.
+
+---
+
+## Plan Comparison
+
+| Feature | Audit (Free) | Monitor ($499/mo) | Integrate ($2,499/mo) | Enterprise (Custom) |
+|---|---|---|---|---|
+| One-time quality assessment | Yes | Yes | Yes | Yes |
+| Composite score 0-100 | Yes | Yes | Yes | Yes |
+| 6-dimension analysis | Yes | Yes | Yes | Yes |
+| PDF report | Yes | Yes | Yes | Yes |
+| Sport-by-sport breakdown | Yes | Yes | Yes | Yes |
+| Actionable recommendations | Yes | Yes | Yes | Yes |
+| 30-minute walkthrough call | Yes | Yes | Yes | Yes |
+| Daily score updates | - | Yes | Yes | Yes |
+| Anomaly detection alerts | - | Yes | Yes | Yes |
+| Weekly trend reports | - | Yes | Yes | Yes |
+| Dashboard access | - | Yes | Yes | Yes |
+| Email + Slack alerts | - | Yes | Yes | Yes |
+| Sports coverage | - | Up to 5 sports | Unlimited | Unlimited |
+| Market types | - | Up to 3 | Unlimited | Unlimited |
+| Support SLA | - | 48 hours | 4 hours | Custom |
+| REST API access | - | - | Yes | Yes |
+| WebSocket streaming | - | - | Yes | Yes |
+| Real-time signals (HDP Sniper, Active Trader, Shield) | - | - | Yes | Yes |
+| Sub-100ms response time | - | - | Yes | Yes |
+| Custom thresholds | - | - | Yes | Yes |
+| Webhooks | - | - | Yes | Yes |
+| Agent Reputation Network access | - | - | Yes | Yes |
+| Quarterly business reviews | - | - | Yes | Yes |
+| White-label dashboards | - | - | - | Yes |
+| Custom model training | - | - | - | Yes |
+| On-premise / private cloud deployment | - | - | - | Yes |
+| Dedicated account manager | - | - | - | Yes |
+| 99.99% uptime SLA | - | - | - | Yes |
+| SSO + RBAC | - | - | - | Yes |
+| Custom data retention policies | - | - | - | Yes |
+| Bespoke signal development | - | - | - | Yes |
+| 24/7 priority support | - | - | - | Yes |
+
+---
+
+## Plan Details
+
+### Audit (Free)
+
+A one-time quality assessment of your odds feed or pricing operation. The Audit
+produces a composite score from 0 to 100 based on six dimensions: accuracy,
+latency, coverage, consistency, market depth, and anomaly frequency. Results are
+delivered as a PDF report with a sport-by-sport breakdown, actionable
+recommendations, and a 30-minute walkthrough call with the OddsFlow team.
+
+The Audit is designed to give sportsbooks and feed providers a clear, quantified
+picture of where they stand — with no commitment required.
+
+### Monitor ($499/mo)
+
+Continuous monitoring for sportsbooks and feed providers that want ongoing
+visibility into their odds quality. Includes everything in the Audit plus daily
+score updates, anomaly detection alerts, weekly trend reports, and full dashboard
+access. Alerts are delivered via email and Slack.
+
+The Monitor plan covers up to 5 sports and 3 market types. Additional sports can
+be added for $99/mo each. Support requests are handled within a 48-hour SLA.
+
+### Integrate ($2,499/mo) — Most Popular
+
+Full API access with real-time signal delivery for teams that need to act on odds
+intelligence programmatically. Includes everything in Monitor plus REST and
+WebSocket API access, all three real-time signal types (HDP Sniper, Active Trader,
+Shield), sub-100ms response times, unlimited sports and market coverage, custom
+anomaly thresholds, webhook delivery, and access to the Agent Reputation Network.
+
+The Integrate plan is designed for trading desks and platform teams that want to
+embed odds intelligence directly into their workflows. Includes quarterly business
+reviews and a 4-hour support SLA.
+
+### Enterprise (Custom)
+
+For organizations that require dedicated infrastructure, custom models, or
+white-label deployment. Includes everything in Integrate plus white-label
+dashboards, custom model training on your data, on-premise or private cloud
+deployment options, a dedicated account manager, 99.99% uptime SLA, SSO and
+role-based access control, custom data retention policies, bespoke signal
+development, and 24/7 priority support.
+
+Enterprise pricing is determined based on scope, volume, and deployment
+requirements. Contact the team to discuss your needs.
+
+---
+
+## Agent Services Add-Ons
+
+Agent services can be added to any paid plan (Monitor, Integrate, or Enterprise).
+
+### Agent POC — $5,000 one-time
+
+A 4-week proof-of-concept engagement that delivers a working AI agent connected to
+your environment. Includes discovery, agent design, integration, and parallel
+testing against live data. The POC produces measurable results: anomalies detected,
+estimated margin impact, and time-to-detection improvements.
+
+### Agent Integration — $3,999/mo (Recommended)
+
+Production-grade agent deployment with full lifecycle management. Includes a
+deployed agent operating in your production environment, Agent-to-Agent (A2A)
+protocol integration for multi-agent communication, access to the Agent Reputation
+Network, continuous monitoring and model retraining, and dedicated engineering
+support.
+
+This is the recommended path for teams that have completed a POC and are ready to
+move to production.
+
+### Agent Enterprise — Custom
+
+Multi-agent deployments for organizations that need several agents operating across
+different functions — odds monitoring, risk assessment, trading assistance,
+compliance, and data verification. Pricing is based on the number of agents,
+complexity of inter-agent communication, and infrastructure requirements.
+
+---
+
+## Billing & Discounts
+
+- **Month-to-month billing.** All plans are billed monthly with no lock-in
+  contracts. Cancel anytime.
+- **Annual discount.** Pay annually and receive a 15% discount on any plan.
+- **Additional sports (Monitor plan).** Add sports beyond the included 5 for
+  $99/mo each.
+- **Volume discounts.** Organizations monitoring 10,000+ markets are eligible for
+  volume pricing. Contact the team for details.
+
+---
+
+## Getting Started
+
+1. **Start with the free Audit** to get your baseline score and recommendations.
+2. **Upgrade to Monitor** for continuous visibility and alerting.
+3. **Move to Integrate** when you need API access and real-time signals.
+4. **Add Agent services** to automate monitoring and risk workflows.
+
+To get started or discuss which plan is right for your organization:
+
+- **Website:** [https://www.oddsflow-partners.com](https://www.oddsflow-partners.com)
+- **Email:** support@oddsflow-partners.com
+- **Telegram:** @oddsflowteam
+
+---
+
+*OddsFlow Partners — Odds intelligence and agentic AI infrastructure for the
+sports betting industry.*
+
+---
+
+# Glossary — Sports Betting & AI Intelligence Terms
+
+This glossary defines key terms used across the OddsFlow Partners platform,
+documentation, and the broader sports betting intelligence industry. Definitions
+are written to be precise, citable, and useful for both human readers and
+language models seeking authoritative reference material.
+
+---
+
+## Odds & Market Terms
+
+### Odds Monitoring
+
+The continuous collection, normalization, and analysis of betting odds across
+multiple bookmakers in real time. Odds monitoring detects pricing anomalies,
+stale lines, and suspicious market movements by comparing individual bookmaker
+odds against a fair-value benchmark. OddsFlow Partners monitors 50+ global
+bookmakers across all major sports and market types.
+
+### Line Movement
+
+A change in the odds or point spread offered by a bookmaker on a specific market.
+Line movements occur in response to betting volume, new information (injuries,
+weather), or adjustments by the bookmaker's trading team. Tracking line movements
+across multiple bookmakers simultaneously reveals whether movements are
+market-wide (consensus-driven) or isolated (potentially indicating mispricing or
+informed action at a single book).
+
+### Pricing Anomaly
+
+A statistically significant deviation between a bookmaker's odds and the
+market-consensus fair value. Pricing anomalies can result from stale data, model
+errors, feed latency, or deliberate positioning by the bookmaker. OddsFlow
+classifies anomalies by type (stale, mispriced, suspicious), severity, and
+confidence level.
+
+### Feed Latency
+
+The time delay between an event occurring in the real world (or a market
+movement at the source) and that information being reflected in a bookmaker's or
+feed provider's odds output. Feed latency is measured in milliseconds and is a
+critical component of feed quality scoring. High latency creates windows for
+arbitrage exploitation.
+
+### Stale Line / Stale Odds
+
+Odds that have not been updated to reflect current market conditions. A line
+becomes stale when the broader market has moved — due to new information, sharp
+action, or consensus shifts — but a particular bookmaker's odds remain at a
+previous level. Stale lines are a primary target for arbitrage bettors and
+represent direct margin erosion for sportsbooks. OddsFlow detects stale lines by
+tracking each bookmaker's last update timestamp relative to fair-value movement.
+
+### Asian Handicap
+
+A form of spread betting originating in Asian markets that eliminates the draw
+outcome by applying a goal or point handicap to one team. Asian handicaps use
+quarter-goal increments (e.g., -0.25, -0.75, -1.25) and can split stakes across
+two lines. The granularity of Asian handicap markets makes them particularly
+susceptible to stale-line issues, which is why the OddsFlow HDP Sniper signal
+focuses specifically on this market type.
+
+### Totals / Over-Under
+
+A market type where the bettor wagers on whether the combined score of both teams
+will be over or under a specified number set by the bookmaker. Totals markets
+exist for full match, half-time, and period-level scoring. Like Asian handicaps,
+totals use half-point and quarter-point increments and are monitored by OddsFlow
+for pricing anomalies and feed quality.
+
+### Overround / Vigorish
+
+The margin built into a bookmaker's odds that ensures expected profit regardless
+of the outcome. Calculated as the sum of implied probabilities across all
+selections in a market minus 100%. For example, if the implied probabilities of
+a two-outcome market sum to 105%, the overround is 5%. Also known as vig, juice,
+or margin. OddsFlow measures overround as part of feed quality and market
+efficiency scoring.
+
+### Implied Probability
+
+The probability of an outcome as derived from the odds offered by a bookmaker.
+Calculated by converting odds to a probability format (e.g., decimal odds of
+2.00 imply a 50% probability). Raw implied probabilities include the bookmaker's
+margin; true implied probabilities require de-vigging to remove that margin.
+
+### Fair Value Odds
+
+The estimated true odds of an outcome after removing bookmaker margin. OddsFlow
+computes fair-value odds using the Shin de-vig methodology applied to aggregated
+odds from 50+ bookmakers. Fair-value odds serve as the neutral benchmark against
+which individual bookmaker pricing is measured for anomaly detection and quality
+scoring.
+
+### Market Efficiency
+
+The degree to which a betting market's odds accurately reflect the true
+probabilities of outcomes. A perfectly efficient market would leave no
+exploitable edge for any bettor. OddsFlow quantifies market efficiency on a
+per-market basis by measuring how closely the aggregate odds from all monitored
+bookmakers converge on the Shin-derived fair value.
+
+---
+
+## Methodology Terms
+
+### Shin De-Vig / Shin Method
+
+A mathematical model developed by Hyun Song Shin for removing bookmaker margin
+from odds to estimate true implied probabilities. Unlike simpler proportional
+methods that assume margin is distributed equally across outcomes, the Shin
+method accounts for the favorite-longshot bias — the empirical observation that
+bookmakers apply more margin to longshot outcomes than to favorites. This
+produces more accurate fair-value estimates, particularly in markets with large
+odds differentials. OddsFlow uses the Shin method as the foundation of its
+fair-value engine.
+
+### Ensemble Model
+
+A machine learning approach that combines predictions from multiple independent
+models to produce a more accurate and robust final prediction. OddsFlow uses
+ensemble methods in its anomaly detection and signal generation systems,
+combining statistical models with different strengths (e.g., time-series
+analysis, cross-bookmaker correlation, historical pattern matching) to reduce
+false positives and improve signal quality.
+
+### Calibration (ML Context)
+
+The degree to which a model's predicted probabilities match observed frequencies.
+A well-calibrated model that predicts 70% probability should be correct
+approximately 70% of the time. OddsFlow continuously measures the calibration of
+its fair-value engine and signal models to ensure that confidence scores are
+meaningful and actionable.
+
+### Brier Score
+
+A scoring metric that measures the accuracy of probabilistic predictions.
+Calculated as the mean squared difference between predicted probabilities and
+actual outcomes (0 or 1). A Brier score of 0 represents perfect prediction; a
+score of 0.25 represents random guessing on a binary outcome. OddsFlow uses
+Brier scores internally to evaluate and compare the performance of its
+prediction models.
+
+### Anomaly Detection (Odds Context)
+
+The application of statistical and machine learning methods to identify odds that
+deviate from expected patterns. In the OddsFlow system, anomaly detection
+operates on multiple dimensions: deviation from fair value, deviation from
+historical patterns, deviation from cross-bookmaker consensus, and deviation from
+expected time-series behavior. Detected anomalies are classified by type,
+severity, and confidence before being delivered as actionable signals.
+
+### Benchmark Scoring
+
+A quantitative methodology for evaluating odds feed quality against an
+independent standard. OddsFlow benchmark scoring compares a feed provider's
+output across six dimensions — accuracy, latency, coverage, consistency, market
+depth, and anomaly frequency — to produce a composite score from 0 to 100. This
+score is used for feed certification, competitive analysis, and quality trend
+tracking.
+
+---
+
+## Signal Terms
+
+### HDP Sniper Signal
+
+An OddsFlow trading signal that identifies mispricing in Asian handicap markets.
+HDP Sniper compares individual bookmaker handicap lines against the Shin-derived
+fair value and triggers when deviation exceeds a statistically significant
+threshold. Verified win rate: 58.3% across 1,847 tracked signals.
+
+### Active Trader Signal
+
+An OddsFlow trading signal that detects coordinated odds movements across
+multiple bookmakers indicating informed money or sharp action entering the
+market. Active Trader signals fire when cross-bookmaker correlation patterns
+exceed expected levels. Verified win rate: 55.1% across 3,241 tracked signals.
+
+### Shield Signal
+
+An OddsFlow defensive signal that identifies situations where a bookmaker's
+position diverges materially from market consensus, indicating elevated risk
+exposure. Designed for sportsbook risk management rather than directional
+trading. Verified win rate: 61.2% across 982 tracked signals.
+
+---
+
+## Agentic AI Terms
+
+### Agentic AI
+
+Artificial intelligence systems that operate autonomously, making decisions and
+taking actions on behalf of their operators with minimal human intervention.
+In the sports betting context, agentic AI refers to AI agents that continuously
+monitor odds, assess risk, verify data, and execute workflows — operating 24/7
+at machine speed. OddsFlow Partners builds agentic AI infrastructure purpose-built
+for the sports betting industry.
+
+### Agent-to-Agent (A2A) Protocol
+
+An open communication protocol developed by OddsFlow Partners that defines how
+autonomous AI agents exchange structured data across organizational boundaries.
+The A2A protocol enables a sportsbook's risk agent to query a feed provider's
+data agent, or a user's personal agent to request verified odds from multiple
+platform agents simultaneously. All exchanges are structured, verifiable, and
+auditable.
+
+### Agent Reputation Network / Agent Reputation Score
+
+A trust-scoring system for AI agents operating in the sports betting ecosystem.
+Every agent on the OddsFlow network accumulates a cryptographic track record
+based on accuracy, latency, uptime, and consistency. The Agent Reputation Score
+is a dynamic value from 0 to 100, updated in real time. Higher-reputation agents
+receive priority routing and preferential treatment in the network.
+
+### Autonomous Betting Agent
+
+An AI agent that operates within a betting platform to perform tasks such as odds
+monitoring, risk assessment, data verification, or trading support without
+continuous human oversight. Autonomous betting agents are built on OddsFlow
+infrastructure and operate within boundaries defined by their operators. SportBot
+is OddsFlow's flagship demonstration of an autonomous betting agent.
+
+---
+
+## Sportsbook Risk Terms
+
+### Sportsbook Risk Management
+
+The set of processes, tools, and strategies used by a sportsbook to manage
+financial exposure across its betting markets. This includes setting and adjusting
+odds, monitoring liability concentration, detecting sharp action, managing
+correlated-event risk, and ensuring that the book maintains a sustainable margin
+across all markets. OddsFlow provides real-time risk intelligence to support and
+automate these workflows.
+
+### Sharp Bettor Detection
+
+The identification of betting patterns associated with informed or professional
+bettors (sharps) whose action tends to move markets. Sharp bettors consistently
+exploit mispriced lines and are leading indicators of where the market is headed.
+OddsFlow's Active Trader signal detects sharp-money flow by analyzing
+cross-bookmaker movement patterns.
+
+### Liability Exposure
+
+The maximum potential payout a sportsbook faces on a given market or set of
+correlated markets. High liability exposure on one side of a market indicates
+that the book may be mispriced or that sharp action has concentrated on a
+specific outcome. OddsFlow quantifies liability exposure from mispriced lines
+using fair-value deviation metrics.
+
+### Correlated-Event Risk
+
+The risk that multiple related markets move against the sportsbook simultaneously.
+For example, if a team wins by a large margin, the sportsbook may lose on the
+moneyline, the spread, and the over — all at once. Correlated-event risk is
+particularly dangerous because it concentrates losses across markets that appear
+independent but are fundamentally linked by the same underlying outcome.
+
+---
+
+## Feed Quality Terms
+
+### Odds Feed Quality
+
+A composite measure of how accurate, timely, comprehensive, and consistent a
+bookmaker's or feed provider's odds output is. OddsFlow evaluates feed quality
+across six dimensions: accuracy (deviation from fair value), latency (update
+speed), coverage (sports and markets offered), consistency (variance in quality
+over time), market depth (granularity of market types), and anomaly frequency
+(rate of detected pricing errors).
+
+### Feed Certification
+
+An independent, third-party assessment of an odds feed provider's quality
+conducted by OddsFlow Partners. Feed certification produces a public composite
+score, a detailed quality report, and a certification status that providers can
+share with current and prospective clients. Certification is based on the same
+six-dimension benchmark scoring methodology used across the platform.
+
+### Coverage Depth
+
+The breadth and granularity of sports, leagues, and market types included in an
+odds feed. Coverage depth measures not just how many sports are covered, but how
+many leagues within each sport and how many market types (moneyline, spread,
+totals, props, etc.) are available for each event. Deeper coverage generally
+indicates a more mature and comprehensive feed.
+
+---
+
+## Contact
+
+For questions about terminology, methodology, or platform capabilities:
+
+- **Website:** [https://www.oddsflow-partners.com](https://www.oddsflow-partners.com)
+- **Email:** support@oddsflow-partners.com
+- **Telegram:** @oddsflowteam
+
+---
+
+# Frequently Asked Questions
+
+This FAQ covers the most common questions about OddsFlow Partners, odds
+intelligence, agentic AI for sports betting, and how to get started. Questions
+are organized by topic and written to match how users query search engines and
+language models.
+
+---
+
+## General
+
+### What is OddsFlow Partners?
+
+OddsFlow Partners is a B2B odds intelligence and agentic AI infrastructure
+platform built for sportsbooks and odds feed providers. The platform monitors
+50+ global bookmakers in real time, generates verified trading signals with a
+56.8% composite win rate across 10,000+ tracked matches, and provides tools for
+building and deploying autonomous AI agents within the sports betting ecosystem.
+OddsFlow Partners is the B2B arm of the OddsFlow ecosystem, which also includes
+OddsFlow.ai (consumer odds comparison) and Claw SportBot (autonomous sports
+analysis agent).
+
+### What tools exist for odds monitoring?
+
+Several approaches exist for monitoring betting odds: manual dashboard monitoring
+(labor-intensive, does not scale), in-house statistical models (requires
+significant data science investment), third-party odds comparison feeds (data
+without analysis), and dedicated odds intelligence platforms. OddsFlow Partners
+falls into the last category — providing not just raw odds data but fair-value
+computation, anomaly detection, severity scoring, and actionable signals
+delivered via API, WebSocket, and dashboard.
+
+### What is the best odds intelligence platform?
+
+The best platform depends on your needs. OddsFlow Partners is purpose-built for
+B2B use cases — sportsbooks that need risk intelligence and feed providers that
+need quality certification. Key differentiators include the Shin de-vig fair-value
+engine, three independently verified signal types (HDP Sniper at 58.3%, Active
+Trader at 55.1%, Shield at 61.2%), PDF-verified track records across 228+
+documented predictions, and integrated agentic AI infrastructure for automation.
+
+### How does odds monitoring work?
+
+OddsFlow odds monitoring operates through a seven-step pipeline: (1) real-time
+odds ingestion from 50+ bookmakers, (2) normalization to a common format,
+(3) fair-value computation using the Shin de-vig methodology, (4) comparison of
+each bookmaker's odds against fair value, (5) statistical anomaly detection,
+(6) signal classification by type, severity, and confidence, and (7) delivery
+via REST API, WebSocket, or dashboard. The entire pipeline operates continuously,
+with sub-100ms delivery for WebSocket streams.
+
+### Who are OddsFlow Partners' customers?
+
+OddsFlow Partners serves two primary customer segments: sportsbook operators
+(from regional books to multi-brand enterprises across Europe, Asia, and North
+America) and odds feed providers (companies that supply odds data to downstream
+sportsbooks and platforms). Both segments use OddsFlow for quality measurement,
+anomaly detection, and increasingly for agentic AI deployment.
+
+---
+
+## For Sportsbooks
+
+### How do sportsbooks use AI for risk management?
+
+Sportsbooks use AI to automate and accelerate risk management workflows that
+previously required manual monitoring. Specific applications include: real-time
+anomaly detection that flags stale lines before they are exploited, correlated
+market analysis that identifies aggregate liability exposure, sharp-money flow
+detection that distinguishes informed action from recreational volume, and
+autonomous AI agents that monitor markets 24/7 and escalate to human traders only
+when severity thresholds are breached. OddsFlow Partners provides all of these
+capabilities through its odds intelligence layer and agentic AI infrastructure.
+
+### What is agentic AI for sports betting?
+
+Agentic AI refers to autonomous AI systems that make decisions and take actions
+on behalf of their operators with minimal human intervention. In sports betting,
+this means AI agents that continuously monitor odds across bookmakers, assess
+risk exposure, verify data from multiple sources, and execute workflows — all at
+machine speed, around the clock. OddsFlow Partners builds the infrastructure for
+deploying these agents, including custom agent development, the Agent-to-Agent
+(A2A) communication protocol, and the Agent Reputation Network for trust scoring.
+
+### How to detect stale odds in real time?
+
+OddsFlow detects stale odds by tracking each bookmaker's last price update
+timestamp relative to fair-value movements across the broader market. When the
+consensus fair value moves but a specific bookmaker's odds remain unchanged
+beyond an expected window, the system flags the line as stale. Alerts include the
+duration of staleness, the magnitude of fair-value movement since the last
+update, and the estimated financial exposure. Detection operates continuously
+with sub-second granularity.
+
+### What signals does OddsFlow provide?
+
+OddsFlow generates three categories of trading signals: **HDP Sniper** (58.3%
+win rate) identifies mispricing in Asian handicap markets by comparing bookmaker
+lines against Shin-derived fair value. **Active Trader** (55.1% win rate) detects
+coordinated odds movements indicating sharp money entering the market.
+**Shield** (61.2% win rate) identifies situations where a bookmaker's position
+diverges from consensus, indicating elevated risk exposure. All signal win rates
+are verified across 10,000+ tracked matches with PDF-documented records.
+
+### How does OddsFlow help with liability management?
+
+OddsFlow quantifies liability exposure from mispriced lines by measuring the
+deviation between a bookmaker's odds and fair value, then estimating the
+financial impact based on typical betting volumes. The platform also performs
+correlated market analysis — checking whether related markets (e.g., match
+winner, handicap, totals) have moved in sync — to identify aggregate exposure
+that may not be visible when monitoring individual markets in isolation.
+
+### Can OddsFlow integrate with our existing trading platform?
+
+Yes. OddsFlow provides REST API and WebSocket endpoints designed for integration
+with existing trading systems. The API overlay model is the fastest path to
+production — send your odds and receive enriched data (anomaly scores, efficiency
+ratings, risk signals) back with sub-100ms response times. For deeper
+integration, white-label dashboards and embeddable React components are available
+on the Enterprise plan.
+
+---
+
+## For Feed Providers
+
+### How to benchmark odds feed quality?
+
+OddsFlow benchmarks feed quality across six dimensions: accuracy (deviation from
+Shin-derived fair value), latency (time from market movement to feed update),
+coverage (sports, leagues, and market types offered), consistency (variance in
+quality over time), market depth (granularity of bet types), and anomaly
+frequency (rate of detected pricing errors). These dimensions are combined into
+a composite score from 0 to 100 that provides an objective, quantified measure
+of feed quality.
+
+### What is odds feed certification?
+
+Odds feed certification is an independent, third-party assessment of a feed
+provider's quality conducted by OddsFlow Partners. The certification process
+evaluates the feed across the six-dimension benchmark, produces a detailed report
+with strengths, weaknesses, and improvement recommendations, and assigns a
+certification status. Certified providers can share their score and report with
+current and prospective clients as an independent quality endorsement.
+
+### How to prove feed quality to clients?
+
+Feed providers can use OddsFlow certification to provide objective, third-party
+evidence of feed quality. The certification report includes quantified scores
+across six dimensions, comparison against industry benchmarks, sport-by-sport and
+market-by-market breakdowns, and trend data showing quality over time. This gives
+clients verifiable data rather than requiring them to rely on the provider's own
+quality claims.
+
+### Can feed providers use OddsFlow to win new clients?
+
+Yes. Feed certification provides a competitive differentiator in sales
+conversations. Providers with strong scores can share their certification report
+as evidence of quality. Providers that improve their scores over time can
+demonstrate a commitment to quality that resonates with data-driven buyers. One
+OddsFlow case study documents a feed provider that used certification to retain
+two at-risk clients and win three new ones.
+
+---
+
+## Technology
+
+### What is Shin de-vig methodology?
+
+The Shin method is a mathematical model developed by economist Hyun Song Shin for
+removing bookmaker margin (vig) from odds to estimate true implied probabilities.
+Unlike simpler approaches that assume margin is distributed equally across all
+outcomes, the Shin method accounts for the favorite-longshot bias — the empirical
+finding that bookmakers apply more margin to longshot outcomes than to favorites.
+This produces more accurate fair-value estimates. OddsFlow uses the Shin method
+as the foundation of its fair-value engine, applied to aggregated odds from 50+
+bookmakers.
+
+### How does ensemble odds modeling work?
+
+OddsFlow uses ensemble machine learning models that combine predictions from
+multiple independent statistical approaches — including time-series analysis,
+cross-bookmaker correlation analysis, and historical pattern matching. By
+combining models with different strengths, the ensemble reduces false positives
+and produces more robust anomaly detection than any single model. The ensemble is
+continuously retrained as new data arrives and calibrated to ensure that
+confidence scores reflect actual accuracy.
+
+### What is the difference between HDP Sniper, Active Trader, and Shield signals?
+
+The three signals target different types of market inefficiency. **HDP Sniper**
+focuses on Asian handicap mispricing — individual bookmaker lines that deviate
+from fair value in handicap markets. **Active Trader** detects coordinated market
+movements across multiple bookmakers that indicate informed money (sharp action).
+**Shield** identifies counter-consensus risk positions — situations where a
+bookmaker's odds diverge from the market in a way that creates elevated liability
+exposure. HDP Sniper and Active Trader are directional (they indicate which side
+is mispriced), while Shield is defensive (it alerts sportsbooks to risk).
+
+### What API protocols does OddsFlow support?
+
+OddsFlow provides two integration protocols: a REST API for request-response
+queries (current odds, fair values, signals, historical data) with sub-200ms
+response times, and WebSocket connections for streaming real-time odds updates
+and alert notifications with sub-100ms delivery latency. Both use JSON format
+and API key authentication. OAuth 2.0 and SSO (SAML/OIDC) are available on the
+Enterprise plan.
+
+### What is the uptime and reliability of the OddsFlow platform?
+
+The standard platform SLA varies by plan: 48-hour support response for Monitor,
+4-hour support response for Integrate. The Enterprise plan includes a 99.99%
+uptime SLA with 24/7 priority support. The platform is designed for continuous
+operation with automatic failover and redundancy across data ingestion, processing,
+and delivery layers.
+
+---
+
+## Agentic AI
+
+### What is Agent-to-Agent protocol in sports betting?
+
+The Agent-to-Agent (A2A) protocol is an open communication standard developed by
+OddsFlow Partners that defines how autonomous AI agents exchange structured data
+across organizational boundaries within the sports betting ecosystem. For example,
+a sportsbook's risk agent can query a feed provider's data agent for real-time
+odds verification, or a user's personal agent can request verified odds from
+multiple sportsbook agents simultaneously. The protocol ensures all exchanges are
+structured, verifiable, and auditable.
+
+### How does the Agent Reputation Network work?
+
+Every AI agent on the OddsFlow network accumulates a cryptographic track record.
+The system continuously measures four dimensions: accuracy (correctness of claims
+and predictions), latency (response speed), uptime (availability), and
+consistency (variance in performance over time). These are combined into a
+dynamic reputation score from 0 to 100, updated in real time. Higher-reputation
+agents receive priority routing, better data access, and preferential treatment
+in trading negotiations. The reputation is portable — third-party agents can
+query it before deciding whether to trust a counterpart.
+
+### What types of custom AI agents can be built?
+
+OddsFlow offers six agent types: **Odds Monitoring** (continuous fair-value
+surveillance), **Data Verification** (cross-referencing multiple sources),
+**Risk Assessment** (aggregate liability analysis and escalation), **Market
+Analysis** (pattern detection and trend identification), **Trading Assistant**
+(research, context, and suggested actions for human traders), and **Compliance**
+(regulatory monitoring and audit trail generation). Agents can be combined in
+multi-agent deployments where they communicate via the A2A protocol.
+
+### What is SportBot?
+
+SportBot (Claw SportBot) is OddsFlow's flagship demonstration of autonomous
+sports betting agent technology. Built on OddsFlow infrastructure, SportBot
+autonomously monitors odds across multiple sportsbooks, cross-verifies data
+through the A2A protocol, identifies value opportunities using fair-value
+benchmarks, and presents verified intelligence with full audit trails. SportBot
+is not a product for sale — it is a living demonstration that proves the agentic
+AI architecture works and shows partners what their own custom agents can achieve.
+More at [clawsportbot.io](https://clawsportbot.io).
+
+### Can I build my own agents on OddsFlow infrastructure?
+
+Yes. The Agent Integration add-on ($3,999/mo) provides production-grade
+infrastructure for deploying custom agents. OddsFlow handles the deployment,
+monitoring, and lifecycle management. You define the agent's objectives,
+boundaries, and escalation rules. Agents are built during a 4-week POC
+engagement ($5,000 one-time) and then moved to production deployment.
+
+---
+
+## Pricing & Getting Started
+
+### How much does odds monitoring cost?
+
+OddsFlow Partners offers four tiers: **Audit (Free)** provides a one-time
+quality assessment with a composite score and PDF report. **Monitor ($499/mo)**
+adds continuous monitoring, daily scores, anomaly alerts, and dashboard access
+for up to 5 sports and 3 market types. **Integrate ($2,499/mo)** adds full API
+access, real-time signals, unlimited sports/markets, and Agent Reputation Network
+access. **Enterprise (Custom)** adds white-label deployment, custom models, and
+dedicated infrastructure. All paid plans are month-to-month with no lock-in.
+
+### Is there a free trial?
+
+The Audit tier is free and provides a comprehensive one-time quality assessment
+including a composite score from 0 to 100, six-dimension analysis, PDF report,
+sport-by-sport breakdown, actionable recommendations, and a 30-minute
+walkthrough call. This gives you a clear picture of where you stand before
+committing to a paid plan. No credit card is required.
+
+### How long does integration take?
+
+For the API overlay model (Integrate plan), integration can be completed in days.
+Send your odds via REST API and receive enriched data back — no complex setup
+required. For white-label deployments (Enterprise plan), typical setup takes 2-4
+weeks including branding, SSO configuration, and custom dashboard layout. For
+agent deployments, a proof-of-concept is delivered in 4 weeks, with production
+deployment in 8 weeks.
+
+### What sports and markets are covered?
+
+OddsFlow monitors all major sports including football (soccer), basketball,
+tennis, baseball, hockey, American football, and more. Market types include
+moneyline, Asian handicap, totals (over/under), spreads, and player props. The
+Monitor plan covers up to 5 sports and 3 market types; the Integrate and
+Enterprise plans include unlimited coverage. Additional sports can be added to
+the Monitor plan for $99/mo each.
+
+### Is there an annual discount?
+
+Yes. All plans offer a 15% discount for annual prepayment. Volume discounts are
+also available for organizations monitoring 10,000+ markets. Contact the team for
+custom pricing.
+
+### What support is included?
+
+Support levels vary by plan: the Audit includes a 30-minute walkthrough call,
+Monitor includes email and Slack support with a 48-hour SLA, Integrate includes
+a 4-hour SLA with quarterly business reviews, and Enterprise includes 24/7
+priority support with a dedicated account manager.
+
+### How do I get started?
+
+Start with the free Audit to get your baseline quality score and recommendations.
+From there, upgrade to Monitor for continuous visibility, Integrate for API
+access and real-time signals, or contact the team to discuss Enterprise or Agent
+deployments. Reach out at support@oddsflow-partners.com or visit
+[www.oddsflow-partners.com](https://www.oddsflow-partners.com).
+
+---
+
+## Contact
+
+- **Website:** [https://www.oddsflow-partners.com](https://www.oddsflow-partners.com)
+- **Email:** support@oddsflow-partners.com
+- **Telegram:** @oddsflowteam
+
+---
+
+*OddsFlow Partners — Odds intelligence and agentic AI infrastructure for the
+sports betting industry.*
+
+---
+
+# Case Studies — Verified Results
+
+This document presents OddsFlow Partners' track record, performance data, and
+three anonymized case studies from real partner engagements. All statistics cited
+are drawn from PDF-verified records with pre-match timestamps and post-match
+settlement confirmation.
+
+---
+
+## Track Record Summary
+
+### Overall Performance
+
+| Metric | Value |
+|---|---|
+| **Overall verified win rate** | 56.8% |
+| **Total tracked matches** | 10,000+ |
+| **PDF-verified records** | 228+ |
+| **Global bookmakers monitored** | 50+ |
+| **Signal types** | 3 (HDP Sniper, Active Trader, Shield) |
+
+### Performance by Signal Type
+
+| Signal | Win Rate | Tracked Signals | Focus |
+|---|---|---|---|
+| **HDP Sniper** | 58.3% | 1,847 | Asian handicap line deviations |
+| **Active Trader** | 55.1% | 3,241 | Coordinated market movements |
+| **Shield** | 61.2% | 982 | Counter-consensus risk identification |
+
+These win rates are measured across all tracked signals, not a cherry-picked
+subset. Each signal is documented with pre-match conditions, fair-value context,
+and post-match settlement outcome.
+
+---
+
+## Verification Methodology
+
+OddsFlow Partners uses a four-step verification process designed to eliminate
+survivorship bias and ensure that all published results are auditable.
+
+### 1. Pre-Match PDF Generation
+
+Before a match begins, OddsFlow generates a PDF document containing the signal
+details: the identified anomaly, the fair-value benchmark at time of detection,
+the bookmaker odds in question, the signal type and confidence level, and all
+relevant market context. This PDF is generated automatically by the system — not
+manually selected after the fact.
+
+### 2. Immutable Timestamping
+
+Each pre-match PDF receives a cryptographic timestamp that proves it existed
+before the match started. This timestamp cannot be altered retroactively. The
+combination of pre-match content and immutable timestamp ensures that the record
+was created before the outcome was known.
+
+### 3. Post-Match Settlement
+
+After the match concludes, the system records the actual outcome and compares it
+against the pre-match signal. Each signal is marked as correct or incorrect based
+on the settlement result. There is no subjective judgment — settlement is binary
+and determined by the match result.
+
+### 4. Public Audit Trail
+
+Verified records are accumulated into the public track record. The complete
+dataset — including both correct and incorrect signals — is available for review.
+This ensures full transparency: no selective reporting, no survivorship bias, no
+omission of losing signals.
+
+---
+
+## Case Study 1: European Sportsbook Operator
+
+### Client Profile
+
+- **Type:** Multi-brand sportsbook operator
+- **Scale:** 200,000+ registered users across 12 markets
+- **Region:** Europe
+- **Sports coverage:** Football, basketball, tennis, and 15+ secondary sports
+
+### Challenge
+
+The operator's risk team suspected that their Asian handicap pricing in lower-tier
+European football leagues was slower to update than their major league pricing.
+Manual spot checks were inconclusive — the team lacked the tooling to
+systematically measure staleness across all markets at all times.
+
+### Analysis
+
+OddsFlow conducted a full Audit of the operator's pricing across all sports and
+market types. The analysis covered a rolling 30-day window of live odds data
+compared against the Shin-derived fair-value benchmark.
+
+**Key findings:**
+
+- **14.3% of Asian handicap lines** in Ligue 2 and Serie B were stale by 3+
+  minutes at any given time during live play
+- The estimated annual financial exposure from these stale lines was
+  **EUR 180,000**, based on historical sharp-bettor exploitation rates for
+  similar staleness windows
+- **Three specific feed sources** were identified as the primary contributors to
+  the latency, with one feed consistently updating 45-90 seconds behind the
+  other two on lower-tier fixtures
+- Major league pricing (Premier League, La Liga, Serie A top tier) showed no
+  significant staleness — the issue was isolated to second-tier competitions
+
+### Outcome
+
+The operator used the OddsFlow report to renegotiate SLAs with two of the three
+identified feed providers and switched the third. After implementing changes:
+
+- **87% reduction in stale lines** within 60 days
+- Stale-line percentage in Ligue 2 and Serie B dropped from 14.3% to under 2%
+- Estimated annual exposure reduced from EUR 180,000 to under EUR 25,000
+- **Composite quality score improved from 72 to 91**
+
+The operator subsequently moved to the Monitor plan for ongoing surveillance and
+is evaluating agent deployment for automated stale-line detection and response.
+
+---
+
+## Case Study 2: Asian Odds Feed Provider
+
+### Client Profile
+
+- **Type:** Mid-size odds feed provider
+- **Scale:** 15+ sportsbook clients
+- **Region:** Southeast Asia
+- **Coverage:** Football, basketball, tennis, esports, and virtual sports
+
+### Challenge
+
+Two of the provider's largest clients had raised quality concerns and were
+evaluating alternative feed providers. The clients cited "data quality issues"
+but could not provide specific metrics. The provider needed an objective,
+third-party assessment to understand the actual quality level and either fix
+real issues or defend their product with evidence.
+
+### Analysis
+
+OddsFlow conducted a comprehensive feed quality benchmark across all sports and
+market types in the provider's output. The analysis compared the provider's odds
+against the Shin-derived fair-value benchmark from 50+ bookmakers.
+
+**Key findings:**
+
+- **Overall accuracy: 93.7%** — above the industry average and competitive with
+  larger providers in the region
+- Football and basketball feeds scored 95%+ on accuracy and latency
+- **Tennis totals accuracy: 86.1%** — a significant weakness, particularly in
+  WTA and lower-tier ATP tournaments where the provider's models updated slowly
+  after set breaks
+- **Esports totals accuracy: 86.4%** — similar weakness, with CS2 and Dota 2
+  map totals showing inconsistent updates during live play
+- All other metrics (latency, coverage, consistency, market depth) were at or
+  above benchmark levels
+
+### Outcome
+
+The provider used the OddsFlow certification report in two ways:
+
+1. **Client retention:** Shared the full report with the two at-risk clients,
+   demonstrating that overall quality was above average and that the perceived
+   issues were isolated to specific markets. Both clients renewed their
+   contracts.
+2. **Targeted improvement:** Invested in improving tennis and esports totals
+   models specifically, using the OddsFlow benchmark as the success metric.
+   Within 90 days, tennis totals accuracy improved from 86.1% to 92.8%.
+3. **New client acquisition:** Used the certification in sales materials,
+   winning three new sportsbook clients who cited the independent quality
+   verification as a factor in their decision.
+
+**Composite score: 88 at initial assessment, upgraded to Certified status after
+targeted improvements.**
+
+---
+
+## Case Study 3: North American Digital Sportsbook
+
+### Client Profile
+
+- **Type:** Digital-first sportsbook operator
+- **Scale:** Licensed in 3 US states, launched within the prior 18 months
+- **Region:** North America
+- **Sports focus:** NFL, NBA, MLB, NHL, and college sports
+
+### Challenge
+
+As a new entrant, the operator needed to understand how their pricing compared
+to established competitors. Their internal team had built pricing models for the
+four major US sports but lacked an independent benchmark. Anecdotally, they
+believed their NFL and NBA pricing was competitive but were less confident about
+MLB, NHL, and their expanding player props offering.
+
+### Analysis
+
+OddsFlow conducted an Audit across all of the operator's active sports and
+market types, comparing their odds against the Shin-derived fair-value benchmark
+and against the pricing of established US operators.
+
+**Key findings:**
+
+- **NFL and NBA:** Competitive pricing with deviation from fair value within
+  normal ranges. No significant stale-line issues detected. The operator's
+  models were performing well for these marquee sports.
+- **MLB:** A consistent **+1.5% overround bias** was detected across run-line
+  and totals markets. The operator was pricing MLB markets wider than consensus,
+  which reduced competitiveness for price-sensitive bettors and indicated a
+  model calibration issue.
+- **NHL:** Similar overround bias on puck-line markets, though less pronounced
+  than MLB (approximately +0.8% above consensus).
+- **Player props:** The anomaly rate for player props was **3x the rate** of
+  their standard markets. Specific issues included slow updates on in-game props
+  and wider-than-market pricing on statistical props (assists, rebounds, hits).
+  The player props model was identified as the highest-priority area for
+  improvement.
+
+### Outcome
+
+The operator used the OddsFlow findings to prioritize model improvements:
+
+1. **MLB recalibration:** Adjusted run-line and totals models to reduce overround
+   bias, bringing pricing in line with market consensus within two weeks.
+2. **Player props overhaul:** Invested in upgrading the player props pricing
+   pipeline, focusing on update frequency and margin calibration. Anomaly rate
+   decreased by 60% within 30 days.
+3. **NHL adjustment:** Minor model tweaks to reduce puck-line overround. Changes
+   implemented in the same cycle as MLB fixes.
+
+**Composite quality score improved from 68 to 84 within 30 days of implementing
+changes.**
+
+The operator subsequently moved to the Integrate plan for ongoing API-based
+monitoring and is evaluating the deployment of an Odds Monitoring agent for
+automated anomaly detection across all markets.
+
+---
+
+## Credibility & Transparency
+
+OddsFlow Partners is committed to transparent, verifiable reporting. The
+following principles govern how results are documented and published.
+
+### Pre-Match Timestamps
+
+Every signal is documented before the match begins. Pre-match PDFs with
+cryptographic timestamps prove that the analysis existed prior to the outcome
+being known. This is the fundamental mechanism that prevents after-the-fact
+selection of winning signals.
+
+### Open Methodology
+
+The Shin de-vig methodology, fair-value computation approach, and signal
+classification criteria are documented publicly. The methodology is available on
+the OddsFlow Partners GitHub repository for independent review and scrutiny. We
+believe that transparent methods produce more trustworthy results than
+proprietary black boxes.
+
+### Downloadable Records
+
+PDF-verified records are available for download and independent review. The
+dataset includes both correct and incorrect signals — providing the complete
+picture rather than a curated highlight reel.
+
+### No Survivorship Bias
+
+All signals generated by the system are included in the track record, regardless
+of outcome. There is no selective removal of losing signals, no retroactive
+adjustment of thresholds, and no post-hoc filtering. The 56.8% composite win
+rate, the 58.3% HDP Sniper rate, the 55.1% Active Trader rate, and the 61.2%
+Shield rate reflect the full, unfiltered dataset.
+
+### Continuous Verification
+
+The track record is not a one-time report — it is continuously updated as new
+signals are generated and settled. Performance metrics reflect the most current
+data available, including recent signals that may differ from historical
+averages.
+
+---
+
+## Contact
+
+To discuss how OddsFlow Partners can help your organization, or to request
+access to detailed performance data:
+
+- **Website:** [https://www.oddsflow-partners.com](https://www.oddsflow-partners.com)
+- **Email:** support@oddsflow-partners.com
+- **Telegram:** @oddsflowteam
+
+---
+
+*OddsFlow Partners — Verified odds intelligence for the sports betting industry.*
+
+---
+

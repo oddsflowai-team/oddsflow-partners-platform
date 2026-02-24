@@ -1,0 +1,29 @@
+# OddsFlow Partners
+
+> AI-powered odds intelligence and agentic AI infrastructure for sportsbooks and odds feed providers. Real-time odds monitoring, anomaly detection, feed quality auditing, custom AI agents, Agent-to-Agent protocol, and Agent Reputation Network.
+
+## Documentation
+
+- [Platform Overview](https://www.oddsflow-partners.com/docs/overview.md): What OddsFlow Partners does
+- [Odds Monitoring](https://www.oddsflow-partners.com/docs/odds-monitoring.md): Real-time surveillance and anomaly detection
+- [Agentic AI](https://www.oddsflow-partners.com/docs/agentic-ai.md): Custom AI agents for sportsbook platforms
+
+## Solutions
+
+- [For Sportsbooks](https://www.oddsflow-partners.com/docs/sportsbook-solutions.md): Risk management and odds quality
+- [For Feed Providers](https://www.oddsflow-partners.com/docs/feed-provider-solutions.md): Feed auditing and certification
+
+## Technology
+
+- [Intelligence Engine](https://www.oddsflow-partners.com/docs/technology.md): Shin de-vig, ensemble ML, signal types
+- [Agent Protocol](https://www.oddsflow-partners.com/docs/agent-protocol.md): Agent-to-Agent communication spec
+- [Agent Reputation](https://www.oddsflow-partners.com/docs/agent-reputation.md): Trust scoring for AI agents
+
+## Optional
+
+- [Pricing](https://www.oddsflow-partners.com/docs/pricing.md): Plans and pricing
+- [FAQ](https://www.oddsflow-partners.com/docs/faq.md): Frequently asked questions
+- [Glossary](https://www.oddsflow-partners.com/docs/glossary.md): Industry terminology
+- [Case Studies](https://www.oddsflow-partners.com/docs/case-studies.md): Customer success stories
+- [Custom Agents](https://www.oddsflow-partners.com/docs/custom-agents.md): Custom agent development service
+- [SportBot](https://www.oddsflow-partners.com/docs/sportbot.md): Autonomous sports betting agent
