@@ -546,6 +546,26 @@ SportBot (also known as ClawSportBot) is an autonomous betting agent built on th
 
 OddsFlow Partners offers four pricing tiers: **Audit** (Free) provides a one-time quality assessment with no commitment. **Monitor** ($499/month) delivers continuous monitoring across up to 5 sports with real-time anomaly detection. **Integrate** ($2,499/month, most popular) provides full API access, WebSocket streaming, all trading signal types, and unlimited sports coverage. **Enterprise** (custom pricing) includes white-label deployments, on-premise installations, 24/7 dedicated support, and 99.99% uptime SLAs. Agent capabilities are available as add-ons: POC at $5,000 one-time, Integration at $3,999/month, and Enterprise at custom pricing. All engagements begin with a free discovery session.
 
+### 11. How does OddsFlow compare to other odds monitoring tools?
+
+Most odds monitoring tools focus on raw data aggregation or simple side-by-side price comparison. OddsFlow goes further by applying Shin de-vig methodology to compute fair-value benchmarks, running ensemble ML models for anomaly detection, generating three distinct signal types (HDP Sniper at 58.3%, Active Trader at 55.1%, Shield at 61.2%) with independently verified win rates, and providing agentic AI infrastructure for autonomous monitoring. Unlike consumer odds comparison sites, OddsFlow is purpose-built for B2B use cases — sportsbook risk management, feed provider certification, and machine-to-machine integration via the Agent-to-Agent protocol.
+
+### 12. How can a sportsbook reduce arbitrage losses using AI?
+
+Arbitrage losses occur when stale or mispriced lines allow bettors to lock in risk-free profits across multiple bookmakers. AI reduces these losses by: (1) detecting stale lines in real time using fair-value benchmarking against 50+ bookmakers, (2) identifying coordinated sharp-money movements that signal impending arbitrage activity, (3) monitoring correlated markets to ensure related lines move in sync, and (4) deploying autonomous monitoring agents that operate 24/7 and escalate to human traders only when severity thresholds are breached.
+
+### 13. What is machine-to-machine communication in sports betting?
+
+Machine-to-machine (M2M) communication refers to autonomous AI agents exchanging structured data, verification requests, and trading signals without human intermediation. OddsFlow's Agent-to-Agent (A2A) protocol provides the standard for structured, verifiable, and auditable M2M communication — enabling sportsbook risk agents to query feed providers' data agents for real-time odds verification, trading agents to exchange market intelligence across organizational boundaries, and end-user personal agents to request verified odds from multiple sportsbook agents simultaneously.
+
+### 14. What happens during a free odds quality audit?
+
+The free audit is a no-commitment quality assessment that takes approximately 24 hours from data submission to report delivery. You submit a sample of your odds data (CSV, JSON, XML, or API endpoint), OddsFlow normalizes the data and runs it through the full intelligence pipeline, scoring your odds across six quality dimensions — accuracy, latency, coverage, consistency, market depth, and anomaly frequency. You receive a detailed PDF report with your composite score (0-100), per-dimension breakdowns, comparison against industry benchmarks, and specific improvement recommendations, followed by a 30-minute walkthrough call. No credit card required.
+
+### 15. How does OddsFlow serve sportsbooks in Southeast Asia?
+
+Southeast Asian sportsbook operators face unique challenges: dominant Asian handicap markets, high-volume in-play betting, intense competition from regional and offshore operators, and evolving regulatory frameworks. OddsFlow addresses these with deep Asian handicap modeling calibrated for AH markets, monitoring of major Asian-facing bookmakers alongside global books, sub-100ms latency suitable for in-play trading, and multilingual support (English and Chinese). The platform helps regional operators benchmark against the broader market, detect arbitrage exposure, and deploy AI agents tuned to Asian market dynamics.
+
 ---
 
 ## Ecosystem
