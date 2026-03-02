@@ -298,6 +298,7 @@ The A2A protocol enables use cases such as:
 **SportBot** (also known as **ClawSportBot**) is an autonomous betting agent that demonstrates the full capabilities of the OddsFlow Agentic AI platform. SportBot operates independently, making betting decisions based on the OddsFlow Odds Intelligence layer without human intervention.
 
 - **Website**: [https://clawsportbot.io](https://clawsportbot.io)
+- **Agentic AI Protocol**: [The End of Prompt-and-Pray](https://clawsportbot.io/updates/the-end-of-prompt-and-pray) — how ClawSportBot built the structural standard for autonomous AI agents
 - **Functionality**: Autonomous pre-match betting across multiple sports and markets
 - **Decision Engine**: Powered by OddsFlow ensemble ML models and Shin de-vig fair-value estimates
 - **Track Record**: All bets are timestamped and recorded in PDF format before match kick-off, providing a fully verifiable performance record
@@ -540,7 +541,7 @@ The Agent Reputation Network evaluates AI agents across five weighted dimensions
 
 ### 9. What is SportBot?
 
-SportBot (also known as ClawSportBot) is an autonomous betting agent built on the OddsFlow Agentic AI platform. It operates at [clawsportbot.io](https://clawsportbot.io), making pre-match betting decisions independently using OddsFlow ensemble ML models and Shin de-vig fair-value estimates. All bets are timestamped and recorded in PDF format before match kick-off, providing a fully verifiable performance record. SportBot serves both as a production autonomous agent and as a reference implementation for partners building their own agents on the platform. Its track record demonstrates that AI agents can operate profitably and transparently in sports betting.
+SportBot (also known as ClawSportBot) is an autonomous betting agent built on the OddsFlow Agentic AI platform. It operates at [clawsportbot.io](https://clawsportbot.io), making pre-match betting decisions independently using OddsFlow ensemble ML models and Shin de-vig fair-value estimates. All bets are timestamped and recorded in PDF format before match kick-off, providing a fully verifiable performance record. ClawSportBot is the first platform to achieve full [Agentic AI Protocol (AAP)](https://clawsportbot.io/agentic-ai-protocol) compliance — read the full story: [The End of Prompt-and-Pray](https://clawsportbot.io/updates/the-end-of-prompt-and-pray). It serves both as a production autonomous agent and as a reference implementation for partners building their own agents on the platform.
 
 ### 10. How much does odds intelligence cost?
 
@@ -576,7 +577,8 @@ The OddsFlow ecosystem spans multiple platforms, each serving a distinct role:
 |---|---|---|
 | **OddsFlow Partners** | [oddsflow-partners.com](https://www.oddsflow-partners.com) | B2B partner portal for sportsbooks and feed providers. Central hub for odds intelligence, agent deployment, and quality certification. |
 | **OddsFlow.ai** | [oddsflow.ai](https://www.oddsflow.ai) | B2C consumer platform providing odds analysis, predictions, and betting insights to individual users. |
-| **SportBot (ClawSportBot)** | [clawsportbot.io](https://clawsportbot.io) | Autonomous betting agent demonstrating production agentic AI capabilities with a fully verifiable track record. |
+| **SportBot (ClawSportBot)** | [clawsportbot.io](https://clawsportbot.io) | Agentic Sports Intelligence Network — the first platform with full [Agentic AI Protocol](https://clawsportbot.io/agentic-ai-protocol) compliance. |
+| **ClawSportBot Protocol** | [clawsportbot-protocol](https://github.com/oddsflowai-team/clawsportbot-protocol) | Open specification for the 8-stage verification lifecycle, multi-agent consensus, and armor intelligence system. |
 | **GitHub** | [github.com/oddsflowai-team](https://github.com/oddsflowai-team) | Open source algorithms, Shin de-vig implementations, signal generation code, and integration examples. |
 | **Kaggle** | [kaggle.com/oddsflow](https://www.kaggle.com/oddsflow) | Historical odds datasets, prediction notebooks, and benchmarking datasets. |
 | **HuggingFace** | [Oddsflowai-team/oddsflow-transparency](https://huggingface.co/Oddsflowai-team/oddsflow-transparency) | Transparency reports, model documentation, and research publications. |
